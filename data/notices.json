@@ -1,0 +1,6084 @@
+{
+ "updated": "2026-11-22T18:30:00+09:00",
+ "incomeTable": {
+  "year": 2025,
+  "source": "LH 2026.11.19 인천 남동구 행복주택 예비입주자 공고문 '전년도 도시근로자 가구원수별 가구당 월평균소득' (1인 120%=4,576,036원, 2인 110%=6,452,897원, 3~6인 100%, 7인 이상은 6인 금액+1인당 579,278원)",
+  "monthly100": {
+   "1": 3813363,
+   "2": 5866270,
+   "3": 8168429,
+   "4": 8802202,
+   "5": 9326985,
+   "6": 9906263,
+   "7": 10485541,
+   "8": 11064819
+  }
+ },
+ "regions": [
+  {
+   "id": "seoul",
+   "label": "서울",
+   "sources": [
+    "청년안심주택",
+    "LH 청약플러스",
+    "SH"
+   ]
+  },
+  {
+   "id": "incheon",
+   "label": "인천",
+   "sources": [
+    "LH 청약플러스",
+    "인천도시공사(iH)"
+   ]
+  }
+ ],
+ "offices": [
+  {
+   "id": "seolleung",
+   "label": "선릉역 (테헤란로 311)",
+   "address": "서울특별시 강남구 테헤란로 311",
+   "regions": [
+    "seoul",
+    "incheon"
+   ]
+  }
+ ],
+ "uncovered": "인천 공공지원 민간임대(청약홈 등), 서울주거포털 공동체주택",
+ "notices": [
+  {
+   "id": "soco-6796",
+   "name": "UNIT125",
+   "region": "seoul",
+   "source": "soco",
+   "kind": "민간 특별",
+   "group": [
+    "special"
+   ],
+   "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6796&menuNo=400008",
+   "address": "서울특별시 동대문구 장안동 418-1",
+   "district": "동대문구",
+   "station": "장한평역",
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-23T09:00:00+09:00",
+   "applyEnd": "2026-11-24T23:59:00+09:00",
+   "applyNote": "단지 홈페이지 접수 (unit125.shineui.kr) · 마감 11/24 24:00",
+   "announce": "11/25(수) 12:00",
+   "area": "18.03㎡",
+   "price": "5,570만~9,290만 / 월 40~56만",
+   "supply": "실제 1호 (특별)",
+   "reserve": false,
+   "dupRule": "1인 1주택형(타입)만 — 중복 신청 시 모두 탈락",
+   "memo": "특별공급 1호 · 소득 120%·자산 2억 5,100만 이하, 보증금 30~50% 선택",
+   "tracks": [
+    {
+     "label": "특별공급 (청년)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 120,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": 251000000,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": {
+      "sido": "seoul",
+      "sigungu": "동대문구",
+      "includesJob": true,
+      "text": "소득 순위(100%→110%→120% 이하)가 먼저, 같은 소득 순위 안에서 동대문구 → 서울 → 그 외 (거주지 또는 대학·직장 소재지)"
+     },
+     "info": [
+      "청약 시 소득 순위(1순위 100%·2순위 110%·3순위 120% 이하)를 정확히 골라야 함 — 서류와 다르면 당첨 취소",
+      "지역순위를 직장·대학 소재지로 받으려면 재직증명서·재적증명서 제출",
+      "그 외 자격은 최초 모집공고를 따름"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '임차인 모집공고일(2026.11.19.) 기준 19세 이상 39세 이하'",
+      "'소득기준 – 전년도 도시근로자 가구원수별 월평균소득 1순위 100%·2순위 110%·3순위 120%'",
+      "'지역기준 – 동일 소득일 경우 지역 순위 적용: 1순위 동대문구 · 2순위 서울특별시 · 3순위 그 외 (거주자·대학·직장)' · 자산 청년 2억 5,100만"
+     ]
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 38,
+     "pm": 36,
+     "tr": 1,
+     "walk": 20,
+     "path": "도보 5분 → <b>5호선</b> 장한평→왕십리 5분 → 환승 도보 8분 → <b>수인분당선</b> 왕십리→선릉 11분 → 도보 7분"
+    }
+   }
+  },
+  {
+   "id": "soco-6797",
+   "name": "라봄성동",
+   "region": "seoul",
+   "source": "soco",
+   "kind": "민간 특별 예비",
+   "group": [
+    "special",
+    "reserve"
+   ],
+   "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6797&menuNo=400008",
+   "address": "서울특별시 성동구 마조로 66 (마장동 836 일원)",
+   "district": "성동구",
+   "station": "왕십리역",
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-20T10:00:00+09:00",
+   "applyEnd": "2026-11-23T10:00:00+09:00",
+   "applyNote": "인터넷 접수 (네이버 폼)",
+   "announce": "11/25(수) 13:00",
+   "area": "39.46㎡",
+   "price": "1억 6,000만 / 월 57만",
+   "supply": "예비자 100명",
+   "reserve": true,
+   "dupRule": "1인 1주택형(타입)만 — 중복 신청 시 모두 탈락",
+   "memo": "39A 특별공급 예비자만 모집 (청년 또는 신혼부부)",
+   "tracks": [
+    {
+     "label": "특별공급 (청년)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 120,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": 251000000,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": {
+      "sido": "seoul",
+      "sigungu": "성동구",
+      "includesJob": true,
+      "text": "소득 순위(100%→110%→120% 이하)가 먼저, 같은 소득 순위 안에서 성동구 → 서울 → 그 외 (거주지 또는 대학·직장 소재지)"
+     },
+     "info": [
+      "청약 시 소득 순위(1순위 100%·2순위 110%·3순위 120% 이하)를 정확히 골라야 함 — 서류와 다르면 당첨 취소",
+      "지역순위를 직장·대학 소재지로 받으려면 재직증명서·재적증명서 제출",
+      "그 외 자격은 최초 모집공고(2025.06.12.)를 따름"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '임차인 모집공고일(2026.11.19.) 기준 19세 이상 39세 이하'",
+      "'소득기준 – 전년도 도시근로자 가구원수별 월평균소득 1순위 100%·2순위 110%·3순위 120%'",
+      "'지역기준 – 동일 소득일 경우 지역 순위 적용: 1순위 성동구 · 2순위 서울특별시 · 3순위 그 외 (거주자·대학·직장)' · 자산 청년 2억 5,100만"
+     ]
+    },
+    {
+     "label": "특별공급 ((예비)신혼부부)",
+     "target": "newlywed",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": [
+      "engaged",
+      "newlywed"
+     ],
+     "homeless": true,
+     "incomePct": 120,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": 345000000,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": {
+      "sido": "seoul",
+      "sigungu": "성동구",
+      "includesJob": true,
+      "text": "소득 순위(100%→110%→120% 이하)가 먼저, 같은 소득 순위 안에서 성동구 → 서울 → 그 외 (거주지 또는 대학·직장 소재지)"
+     },
+     "info": [
+      "청약 시 소득 순위(1순위 100%·2순위 110%·3순위 120% 이하)를 정확히 골라야 함 — 서류와 다르면 당첨 취소",
+      "지역순위를 직장·대학 소재지로 받으려면 재직증명서·재적증명서 제출",
+      "그 외 자격은 최초 모집공고(2025.06.12.)를 따름",
+      "예비신혼부부는 입주 전 혼인신고·혼인관계증명서 제출",
+      "부부 중 1명만 대표로 1건 신청"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '임차인 모집공고일(2026.11.19.) 기준 19세 이상 39세 이하'",
+      "'소득기준 – 전년도 도시근로자 가구원수별 월평균소득 1순위 100%·2순위 110%·3순위 120%'",
+      "지역순위 성동구 → 서울 → 그 외 · 자산 (예비)신혼부부 3억 4,500만 (소득 3분위 기준)"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "soco-6798",
+   "name": "미아 헤리츠타워",
+   "region": "seoul",
+   "source": "soco",
+   "kind": "민간 일반 예비",
+   "group": [
+    "general",
+    "reserve"
+   ],
+   "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6798&menuNo=400008",
+   "address": "서울특별시 성북구 월계로 38",
+   "district": "성북구",
+   "station": "미아사거리역",
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-23T09:00:00+09:00",
+   "applyEnd": "2026-11-25T23:00:00+09:00",
+   "applyNote": "인터넷 접수 (네이버 폼)",
+   "announce": "11/26(목) 17:00",
+   "area": "36.93㎡ (신혼 59.88㎡)",
+   "price": "2억 400만~2억 8,600만 / 월 48~81만",
+   "supply": "예비자 (타입별 1,000명)",
+   "reserve": true,
+   "dupRule": "1인 1주택형(타입)만 — 중복 신청 시 모두 탈락",
+   "memo": "36타입(청년·신혼)·59타입(신혼) 일반공급 예비자",
+   "tracks": [
+    {
+     "label": "일반공급 (청년)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": null,
+     "info": [
+      "일반공급은 공고문에 소득·자산 기준과 지역순위가 없음 — 그 외 자격은 최초 모집공고(2026.08.04.)를 따름",
+      "경쟁 시 공정한 추첨으로 당첨·예비순번 결정"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '임차인 모집공고일(2026.11.19.) 기준 19세 이상 39세 이하'",
+      "'모든 계층의 신청자 및 입주 예정 세대원 전부는 무주택요건 충족' · '기준 자동차가액 4,542만원 이내'",
+      "일반공급 소득·자산 기준표 없음 ('그 외 신청자격: 최초 모집공고 내용을 따름. 단, 자동차가액 기준은 최신 기준')"
+     ]
+    },
+    {
+     "label": "일반공급 ((예비)신혼부부)",
+     "target": "newlywed",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": [
+      "engaged",
+      "newlywed"
+     ],
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": null,
+     "info": [
+      "신혼부부 인정 범위(혼인기간 등)는 최초 모집공고(2026.08.04.)를 따름",
+      "예비신혼부부는 입주 전 혼인신고·혼인관계증명서 제출",
+      "부부 중 1명만 대표로 1건 신청"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '임차인 모집공고일(2026.11.19.) 기준 19세 이상 39세 이하'",
+      "'모든 계층의 신청자 및 입주 예정 세대원 전부는 무주택요건 충족' · '기준 자동차가액 4,542만원 이내'",
+      "공급현황 '청년 또는 신혼부부 일반공급'"
+     ]
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 56,
+     "pm": 52,
+     "tr": 2,
+     "walk": 24,
+     "path": "도보 10분 → <b>4호선</b> 미아사거리→동대문역사문화공원 12분 → <b>2호선</b> →왕십리 4분 → <b>수인분당선</b> 왕십리→선릉 11분 → 도보 7분"
+    }
+   }
+  },
+  {
+   "id": "soco-6799",
+   "name": "비바힐스강변",
+   "region": "seoul",
+   "source": "soco",
+   "kind": "민간 특별",
+   "group": [
+    "special"
+   ],
+   "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6799&menuNo=400008",
+   "address": "서울특별시 광진구 구의동 593-11",
+   "district": "광진구",
+   "station": "강변역",
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-23T10:00:00+09:00",
+   "applyEnd": "2026-11-23T16:00:00+09:00",
+   "applyNote": "인터넷 접수 (네이버 폼)",
+   "announce": "11/24(화) 11:00",
+   "area": "15.87㎡",
+   "price": "5,500만 / 월 46.8만",
+   "supply": "실제 1호 (특별)",
+   "reserve": false,
+   "dupRule": "1인 1주택형(타입)·1호실만 — 중복 신청 시 모두 탈락",
+   "memo": "특별공급 1호 · 소득 순위 후 광진구→서울→그 외 지역순위",
+   "tracks": [
+    {
+     "label": "특별공급 (청년)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 120,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": 251000000,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": {
+      "sido": "seoul",
+      "sigungu": "광진구",
+      "includesJob": true,
+      "text": "소득 순위(100%→110%→120% 이하)가 먼저, 같은 소득 순위 안에서 광진구 → 서울 → 그 외 (거주지 또는 대학·직장 소재지)"
+     },
+     "info": [
+      "청약 시 소득 순위(1순위 100%·2순위 110%·3순위 120% 이하)를 정확히 골라야 함 — 서류와 다르면 당첨 취소",
+      "지역순위를 직장·대학 소재지로 받으려면 재직증명서·재적증명서 제출",
+      "그 외 자격은 최초 모집공고(2021.09.03.)를 따름"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '임차인 모집공고일(2026.11.19.) 기준 19세 이상 39세 이하'",
+      "'소득기준 – 전년도 도시근로자 가구원수별 월평균소득 1순위 100%·2순위 110%·3순위 120%'",
+      "'지역기준 – 동일 소득일 경우 지역 순위 적용: 1순위 광진구 · 2순위 서울특별시 · 3순위 그 외 (거주자·대학·직장)' · 자산 청년 2억 5,100만"
+     ]
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 29,
+     "pm": 28,
+     "tr": 0,
+     "walk": 15,
+     "path": "도보 9분 → <b>2호선</b> 강변→선릉 12분 → 도보 6분"
+    }
+   }
+  },
+  {
+   "id": "soco-6800",
+   "name": "서초꽃마을 주얼리",
+   "region": "seoul",
+   "source": "soco",
+   "kind": "민간 일반",
+   "group": [
+    "general"
+   ],
+   "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6800&menuNo=400008",
+   "address": "서울특별시 서초구 반포대로27길 13",
+   "district": "서초구",
+   "station": "서초역",
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-23T10:00:00+09:00",
+   "applyEnd": "2026-11-23T17:00:00+09:00",
+   "applyNote": "단지 홈페이지 접수 (seocho1502.qshop.ai)",
+   "announce": "11/24(화) 15:00",
+   "area": "16.63㎡",
+   "price": "6,700만 / 월 50.2~52.1만",
+   "supply": "실제 2호",
+   "reserve": false,
+   "dupRule": "1인 1주택형(타입)만 — 중복 신청 시 모두 탈락",
+   "memo": "일반공급은 소득·자산 기준 없음",
+   "tracks": [
+    {
+     "label": "일반공급 (청년)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": null,
+     "info": [
+      "일반공급은 공고문에 소득·자산 기준과 지역순위가 없음 — 그 외 자격은 최초 모집공고(2020.12.08.)를 따름",
+      "경쟁 시 공정한 추첨으로 당첨·예비순번 결정"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '임차인 모집공고일(2026.11.19.) 기준 19세 이상 39세 이하'",
+      "'모든 계층의 신청자 및 입주 예정 세대원 전부는 무주택요건 충족' · '기준 자동차가액 4,542만원 이내'",
+      "일반공급 소득·자산 기준표 없음 ('그 외 신청자격: 최초 모집공고 내용을 따름. 단, 자동차가액 기준은 최신 기준')"
+     ]
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 19,
+     "pm": 18,
+     "tr": 0,
+     "walk": 10,
+     "path": "도보 4분 → <b>2호선</b> 서초→선릉 7분 → 도보 6분"
+    }
+   }
+  },
+  {
+   "id": "soco-6801",
+   "name": "세이지움 개봉",
+   "region": "seoul",
+   "source": "soco",
+   "kind": "민간 일반·특별",
+   "group": [
+    "general",
+    "special"
+   ],
+   "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6801&menuNo=400008",
+   "address": "서울특별시 구로구 개봉동 503",
+   "district": "구로구",
+   "station": "개봉역",
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-23T00:00:00+09:00",
+   "applyEnd": "2026-11-24T23:00:00+09:00",
+   "applyNote": "인터넷 접수 (네이버 폼)",
+   "announce": "11/25(수) 17:00",
+   "area": "18.55~18.88㎡",
+   "price": "8,400만 / 월 23.63~33.98만",
+   "supply": "실제 2호 (일반 1·특별 1)",
+   "reserve": false,
+   "dupRule": "1인 1주택형(타입)만 — 중복 신청 시 모두 탈락",
+   "memo": "일반 803호(월 33.98만) · 특별 1818호(월 23.63만)",
+   "tracks": [
+    {
+     "label": "일반공급 (청년)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": null,
+     "info": [
+      "일반공급은 공고문에 소득·자산 기준과 지역순위가 없음 — 그 외 자격은 최초 모집공고(2025.03.26.)를 따름",
+      "경쟁 시 공정한 추첨으로 당첨·예비순번 결정"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '임차인 모집공고일(2026.11.19.) 기준 19세 이상 39세 이하'",
+      "'모든 계층의 신청자 및 입주 예정 세대원 전부는 무주택요건 충족' · '기준 자동차가액 4,542만원 이내'",
+      "일반공급 소득·자산 기준표 없음 ('그 외 신청자격: 최초 모집공고 내용을 따름. 단, 자동차가액 기준은 최신 기준')"
+     ]
+    },
+    {
+     "label": "특별공급 (청년)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 120,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": 251000000,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": {
+      "sido": "seoul",
+      "sigungu": "구로구",
+      "includesJob": true,
+      "text": "소득 순위(100%→110%→120% 이하)가 먼저, 같은 소득 순위 안에서 구로구 → 서울 → 그 외 (거주지 또는 대학·직장 소재지)"
+     },
+     "info": [
+      "청약 시 소득 순위(1순위 100%·2순위 110%·3순위 120% 이하)를 정확히 골라야 함 — 서류와 다르면 당첨 취소",
+      "지역순위를 직장·대학 소재지로 받으려면 재직증명서·재적증명서 제출",
+      "그 외 자격은 최초 모집공고(2025.03.26.)를 따름"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '임차인 모집공고일(2026.11.19.) 기준 19세 이상 39세 이하'",
+      "'소득기준 – 전년도 도시근로자 가구원수별 월평균소득 1순위 100%·2순위 110%·3순위 120%'",
+      "'지역기준 – 동일 소득일 경우 지역 순위 적용: 1순위 구로구 · 2순위 서울특별시 · 3순위 그 외 (거주자·대학·직장)' · 자산 청년 2억 5,100만"
+     ]
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 57,
+     "pm": 56,
+     "tr": 1,
+     "walk": 16,
+     "path": "도보 8분 → <b>1호선</b> 개봉→신도림 6분 → 환승 2분 → <b>2호선</b> 신도림→선릉 31분 → 도보 6분"
+    }
+   }
+  },
+  {
+   "id": "soco-6802",
+   "name": "유벤투스240",
+   "region": "seoul",
+   "source": "soco",
+   "kind": "민간 일반 예비",
+   "group": [
+    "general",
+    "reserve"
+   ],
+   "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6802&menuNo=400008",
+   "address": "서울특별시 관악구 신림동 1644-3",
+   "district": "관악구",
+   "station": "구로디지털단지역",
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-23T00:00:00+09:00",
+   "applyEnd": "2026-11-23T23:00:00+09:00",
+   "applyNote": "인터넷 접수 (네이버 폼)",
+   "announce": "11/24(화) 17:00",
+   "area": "31.70㎡",
+   "price": "1억 1,200만~1억 8,000만 / 월 51~81만",
+   "supply": "예비자 (타입별 50명)",
+   "reserve": true,
+   "dupRule": "1인 1주택형(타입)만 — 중복 신청 시 모두 탈락",
+   "memo": "32타입 일반공급 예비자 (청년 또는 신혼)",
+   "tracks": [
+    {
+     "label": "일반공급 (청년)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": null,
+     "info": [
+      "일반공급은 공고문에 소득·자산 기준과 지역순위가 없음 — 그 외 자격은 최초 모집공고(2026.06.02.)를 따름",
+      "경쟁 시 공정한 추첨으로 당첨·예비순번 결정"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '임차인 모집공고일(2026.11.19.) 기준 19세 이상 39세 이하'",
+      "'모든 계층의 신청자 및 입주 예정 세대원 전부는 무주택요건 충족' · '기준 자동차가액 4,542만원 이내'",
+      "일반공급 소득·자산 기준표 없음 ('그 외 신청자격: 최초 모집공고 내용을 따름. 단, 자동차가액 기준은 최신 기준')"
+     ]
+    },
+    {
+     "label": "일반공급 ((예비)신혼부부)",
+     "target": "newlywed",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": [
+      "engaged",
+      "newlywed"
+     ],
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": null,
+     "info": [
+      "신혼부부 인정 범위(혼인기간 등)는 최초 모집공고(2026.06.02.)를 따름",
+      "예비신혼부부는 입주 전 혼인신고·혼인관계증명서 제출",
+      "부부 중 1명만 대표로 1건 신청"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '임차인 모집공고일(2026.11.19.) 기준 19세 이상 39세 이하'",
+      "'모든 계층의 신청자 및 입주 예정 세대원 전부는 무주택요건 충족' · '기준 자동차가액 4,542만원 이내'",
+      "공급현황 '청년 또는 신혼부부 일반공급'"
+     ]
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 41,
+     "pm": 40,
+     "tr": 0,
+     "walk": 13,
+     "path": "도보 7분 → <b>2호선</b> 구로디지털단지→선릉 26분 → 도보 6분"
+    }
+   }
+  },
+  {
+   "id": "soco-6803",
+   "name": "인히어쌍문",
+   "region": "seoul",
+   "source": "soco",
+   "kind": "민간 일반·특별",
+   "group": [
+    "general",
+    "special"
+   ],
+   "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6803&menuNo=400008",
+   "address": "서울특별시 도봉구 쌍문동 103-6",
+   "district": "도봉구",
+   "station": "쌍문역",
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-25T00:00:00+09:00",
+   "applyEnd": "2026-11-25T23:00:00+09:00",
+   "applyNote": "인터넷 접수 (네이버 폼)",
+   "announce": "11/26(목) 17:00",
+   "area": "17.94~25.65㎡",
+   "price": "2,880만~4,704만 / 월 27.84~38.24만",
+   "supply": "실제 5호 (특별 3·일반 2)",
+   "reserve": false,
+   "dupRule": "1인 1주택형(타입)만 — 중복 신청 시 모두 탈락",
+   "memo": "일반 19.17·22.55㎡(4,704만) · 특별 17.94~25.65㎡",
+   "tracks": [
+    {
+     "label": "일반공급 (청년)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": null,
+     "info": [
+      "일반공급은 공고문에 소득·자산 기준과 지역순위가 없음 — 그 외 자격은 최초 모집공고(2022.02.16.)를 따름",
+      "경쟁 시 공정한 추첨으로 당첨·예비순번 결정"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '임차인 모집공고일(2026.11.19.) 기준 19세 이상 39세 이하'",
+      "'모든 계층의 신청자 및 입주 예정 세대원 전부는 무주택요건 충족' · '기준 자동차가액 4,542만원 이내'",
+      "일반공급 소득·자산 기준표 없음 ('그 외 신청자격: 최초 모집공고 내용을 따름. 단, 자동차가액 기준은 최신 기준')"
+     ]
+    },
+    {
+     "label": "특별공급 (청년)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 120,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": 251000000,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": {
+      "sido": "seoul",
+      "sigungu": "도봉구",
+      "includesJob": true,
+      "text": "소득 순위(100%→110%→120% 이하)가 먼저, 같은 소득 순위 안에서 도봉구 → 서울 → 그 외 (거주지 또는 대학·직장 소재지)"
+     },
+     "info": [
+      "청약 시 소득 순위(1순위 100%·2순위 110%·3순위 120% 이하)를 정확히 골라야 함 — 서류와 다르면 당첨 취소",
+      "지역순위를 직장·대학 소재지로 받으려면 재직증명서·재적증명서 제출",
+      "그 외 자격은 최초 모집공고(2022.02.16.)를 따름"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '임차인 모집공고일(2026.11.19.) 기준 19세 이상 39세 이하'",
+      "'소득기준 – 전년도 도시근로자 가구원수별 월평균소득 1순위 100%·2순위 110%·3순위 120%'",
+      "'지역기준 – 동일 소득일 경우 지역 순위 적용: 1순위 도봉구 · 2순위 서울특별시 · 3순위 그 외 (거주자·대학·직장)' · 자산 청년 2억 5,100만"
+     ]
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 59,
+     "pm": 55,
+     "tr": 2,
+     "walk": 19,
+     "path": "도보 5분 → <b>4호선</b> 쌍문→동대문역사문화공원 19분 → <b>2호선</b> →왕십리 4분 → <b>수인분당선</b> 왕십리→선릉 11분 → 도보 7분"
+    }
+   }
+  },
+  {
+   "id": "soco-6804",
+   "name": "제이스타상봉",
+   "region": "seoul",
+   "source": "soco",
+   "kind": "민간 일반",
+   "group": [
+    "general"
+   ],
+   "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6804&menuNo=400008",
+   "address": "서울특별시 중랑구 상봉동 109-34",
+   "district": "중랑구",
+   "station": "상봉역",
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-23T10:00:00+09:00",
+   "applyEnd": "2026-11-23T23:00:00+09:00",
+   "applyNote": "인터넷 접수 (네이버 폼)",
+   "announce": "11/25(수) 15:00",
+   "area": "17.75~31.65㎡",
+   "price": "5,300만~7,600만 / 월 42.6~61.5만",
+   "supply": "실제 2호",
+   "reserve": false,
+   "dupRule": "1인 1주택형(타입)만 — 중복 신청 시 모두 탈락",
+   "memo": "510호 17.75㎡ 청년 · 502호 31.65㎡ 청년·신혼",
+   "tracks": [
+    {
+     "label": "일반공급 (청년)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": null,
+     "info": [
+      "일반공급은 공고문에 소득·자산 기준과 지역순위가 없음 — 그 외 자격은 최초 모집공고(2021.03.08.)를 따름",
+      "경쟁 시 공정한 추첨으로 당첨·예비순번 결정"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '임차인 모집공고일(2026.11.19.) 기준 19세 이상 39세 이하'",
+      "'모든 계층의 신청자 및 입주 예정 세대원 전부는 무주택요건 충족' · '기준 자동차가액 4,542만원 이내'",
+      "일반공급 소득·자산 기준표 없음 ('그 외 신청자격: 최초 모집공고 내용을 따름. 단, 자동차가액 기준은 최신 기준')"
+     ]
+    },
+    {
+     "label": "일반공급 ((예비)신혼부부)",
+     "target": "newlywed",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": [
+      "engaged",
+      "newlywed"
+     ],
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": null,
+     "info": [
+      "신혼부부 인정 범위(혼인기간 등)는 최초 모집공고(2021.03.08.)를 따름",
+      "예비신혼부부는 입주 전 혼인신고·혼인관계증명서 제출",
+      "부부 중 1명만 대표로 1건 신청"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '임차인 모집공고일(2026.11.19.) 기준 19세 이상 39세 이하'",
+      "'모든 계층의 신청자 및 입주 예정 세대원 전부는 무주택요건 충족' · '기준 자동차가액 4,542만원 이내'",
+      "공급현황 '청년 또는 신혼부부 일반공급'"
+     ]
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 42,
+     "pm": 43,
+     "tr": 1,
+     "walk": 16,
+     "path": "도보 8분 → <b>경의중앙선</b> 상봉→왕십리 12분 → 환승 1분 → <b>수인분당선</b> 왕십리→선릉 11분 → 도보 7분"
+    }
+   }
+  },
+  {
+   "id": "soco-6805",
+   "name": "청계로벤하임",
+   "region": "seoul",
+   "source": "soco",
+   "kind": "민간 일반",
+   "group": [
+    "general"
+   ],
+   "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6805&menuNo=400008",
+   "address": "서울특별시 종로구 숭인동 240-1 외",
+   "district": "종로구",
+   "station": "동묘앞역",
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-23T00:00:00+09:00",
+   "applyEnd": "2026-11-23T23:00:00+09:00",
+   "applyNote": "인터넷 접수 (네이버 폼)",
+   "announce": "11/24(화) 17:00",
+   "area": "30㎡",
+   "price": "1억 8,870만 / 월 25.7만",
+   "supply": "실제 1호",
+   "reserve": false,
+   "dupRule": "1인 1주택형(타입)만 — 중복 신청 시 모두 탈락",
+   "memo": "1304호 · 청년 또는 신혼부부 일반공급",
+   "tracks": [
+    {
+     "label": "일반공급 (청년)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": null,
+     "info": [
+      "일반공급은 공고문에 소득·자산 기준과 지역순위가 없음 — 그 외 자격은 최초 모집공고(2023.07.24.)를 따름",
+      "경쟁 시 공정한 추첨으로 당첨·예비순번 결정"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '임차인 모집공고일(2026.11.19.) 기준 19세 이상 39세 이하'",
+      "'모든 계층의 신청자 및 입주 예정 세대원 전부는 무주택요건 충족' · '기준 자동차가액 4,542만원 이내'",
+      "일반공급 소득·자산 기준표 없음 ('그 외 신청자격: 최초 모집공고 내용을 따름. 단, 자동차가액 기준은 최신 기준')"
+     ]
+    },
+    {
+     "label": "일반공급 ((예비)신혼부부)",
+     "target": "newlywed",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": [
+      "engaged",
+      "newlywed"
+     ],
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": null,
+     "info": [
+      "신혼부부 인정 범위(혼인기간 등)는 최초 모집공고(2023.07.24.)를 따름",
+      "예비신혼부부는 입주 전 혼인신고·혼인관계증명서 제출",
+      "부부 중 1명만 대표로 1건 신청"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '임차인 모집공고일(2026.11.19.) 기준 19세 이상 39세 이하'",
+      "'모든 계층의 신청자 및 입주 예정 세대원 전부는 무주택요건 충족' · '기준 자동차가액 4,542만원 이내'",
+      "공급현황 '청년 또는 신혼부부 일반공급'"
+     ]
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 45,
+     "pm": 41,
+     "tr": 2,
+     "walk": 21,
+     "path": "도보 5분 → <b>6호선</b> 동묘앞→청구 2분 → <b>5호선</b> 청구→왕십리 4분 → 환승 7분 → <b>수인분당선</b> 왕십리→선릉 11분 → 도보 7분"
+    }
+   }
+  },
+  {
+   "id": "soco-6806",
+   "name": "광운대역 현대프라힐스",
+   "region": "seoul",
+   "source": "soco",
+   "kind": "민간 일반",
+   "group": [
+    "general"
+   ],
+   "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6806&menuNo=400008",
+   "address": "서울특별시 노원구 월계동 410-3 일원",
+   "district": "노원구",
+   "station": "광운대역",
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-23T00:00:00+09:00",
+   "applyEnd": "2026-11-23T23:00:00+09:00",
+   "applyNote": "단지 홈페이지 접수 (kws-hdprahills.co.kr)",
+   "announce": "11/25(수) 16:00",
+   "area": "36.12㎡",
+   "price": "9,700만 / 월 53만",
+   "supply": "실제 1호",
+   "reserve": false,
+   "dupRule": "호실별 1건만, 신혼부부는 부부 중 1명만 — 중복 시 모두 탈락",
+   "memo": "40A 923호 · 신혼부부 혹은 청년 일반공급",
+   "tracks": [
+    {
+     "label": "일반공급 (청년)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": null,
+     "info": [
+      "일반공급은 공고문에 소득·자산 기준과 지역순위가 없음 — 그 외 자격은 최초 모집공고(2026.01.27.)를 따름",
+      "경쟁 시 공정한 추첨으로 당첨·예비순번 결정"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '임차인 모집공고일(2026.11.19.) 기준 19세 이상 39세 이하'",
+      "'모든 계층의 신청자 및 입주 예정 세대원 전부는 무주택요건 충족' · '기준 자동차가액 4,542만원 이내'",
+      "일반공급 소득·자산 기준표 없음 ('그 외 신청자격: 최초 모집공고 내용을 따름. 단, 자동차가액 기준은 최신 기준')"
+     ]
+    },
+    {
+     "label": "일반공급 ((예비)신혼부부)",
+     "target": "newlywed",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": [
+      "engaged",
+      "newlywed"
+     ],
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": null,
+     "info": [
+      "신혼부부 인정 범위(혼인기간 등)는 최초 모집공고(2026.01.27.)를 따름",
+      "예비신혼부부는 입주 전 혼인신고·혼인관계증명서 제출",
+      "부부 중 1명만 대표로 1건 신청"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '임차인 모집공고일(2026.11.19.) 기준 19세 이상 39세 이하'",
+      "'모든 계층의 신청자 및 입주 예정 세대원 전부는 무주택요건 충족' · '기준 자동차가액 4,542만원 이내'",
+      "공급현황 '청년 또는 신혼부부 일반공급'"
+     ]
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 45,
+     "pm": 45,
+     "tr": 2,
+     "walk": 13,
+     "path": "도보 3분 → <b>1호선</b> 광운대→회기 8분 → <b>경의중앙선</b> 회기→왕십리 7분 → <b>수인분당선</b> 왕십리→선릉 11분 → 도보 7분"
+    }
+   }
+  },
+  {
+   "id": "lh-2015122300021098-1",
+   "name": "서울삼전 행복주택",
+   "region": "seoul",
+   "source": "lh",
+   "kind": "행복주택 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?aisTpCd=10&ccrCnntSysDsCd=03&mi=1026&panId=2015122300021098&uppAisTpCd=06",
+   "address": "서울특별시 송파구 백제고분로32길 40-5 (삼전동 170-27)",
+   "district": "송파구",
+   "station": "삼전역",
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T10:00:00+09:00",
+   "applyEnd": "2026-12-01T17:00:00+09:00",
+   "applyNote": "LH청약플러스 인터넷·모바일 접수 (현장접수는 고령자 등 주거약자만 11/30)",
+   "announce": "서류대상 12/4(금) 17:00 · 최종 2027-03-26",
+   "area": "26.21~41.39㎡",
+   "price": "26형 신혼 8,440만 / 월 35.17만 · 41형 1억 2,040만 / 월 50.17만",
+   "supply": "예비자 20명",
+   "reserve": true,
+   "dupRule": "공고 내 1세대 1주택(1개 단지·1개 주택형)만 — 중복 신청 시 전부 무효",
+   "memo": "신혼부부·한부모가족 유형만 모집",
+   "tracks": [
+    {
+     "label": "신혼부부 계층 ((예비)신혼부부)",
+     "target": "newlywed",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": [
+      "engaged",
+      "newlywed"
+     ],
+     "homeless": true,
+     "incomePct": 120,
+     "incomePctSingle": null,
+     "incomePctByHh": {
+      "2": 130
+     },
+     "assetMax": 345000000,
+     "carMax": 45420000,
+     "residence": {
+      "areas": [
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "의정부시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "남양주시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "구리시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "하남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "성남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "과천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "안양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "광명시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "고양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "양주시"
+       }
+      ],
+      "date": "2026-11-19",
+      "allowJob": true,
+      "text": "공고일(11/19) 현재 서울 또는 연접지역(의정부·남양주·구리·하남·성남·과천·안양·광명·부천·김포·고양·양주시, 인천광역시)이 (본인 또는 배우자의) 거주지나 소득근거지인 사람 (1순위만 모집, 2·3순위 미모집)"
+     },
+     "priority": null,
+     "info": [
+      "혼인 7년 이내 또는 6세 이하 자녀를 둔 경우 신혼부부로 인정",
+      "본인 또는 배우자가 입주 전까지 청약저축 가입 증명",
+      "36A·36B형은 청년과 신혼부부 물량을 통합 추첨",
+      "예비입주자 모집 — 입주까지 상당기간 소요"
+     ],
+     "needsCheck": [
+      "맞벌이가 아니면 소득 100%(2인 110%) 이하 — 맞벌이만 120%(2인 130%)"
+     ],
+     "evidence": [
+      "공고문 3-3 '혼인기간 7년 이내 또는 6세 이하 자녀' · 예비신혼부부는 입주 전 혼인 증명",
+      "'월평균소득 100%(맞벌이 120%), 2인 110%(맞벌이 130%)' · '총자산 34,500만원, 자동차 4,542만원 이하'",
+      "순위: 본인 또는 배우자가 서울·연접지역 거주지나 소득근거지인 1순위만 모집"
+     ]
+    },
+    {
+     "label": "한부모가족 계층 (6세 이하 자녀)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 100,
+     "incomePctSingle": null,
+     "incomePctByHh": {
+      "2": 110
+     },
+     "assetMax": 345000000,
+     "carMax": 45420000,
+     "residence": {
+      "areas": [
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "의정부시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "남양주시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "구리시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "하남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "성남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "과천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "안양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "광명시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "고양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "양주시"
+       }
+      ],
+      "date": "2026-11-19",
+      "allowJob": true,
+      "text": "공고일(11/19) 현재 서울 또는 연접지역(의정부·남양주·구리·하남·성남·과천·안양·광명·부천·김포·고양·양주시, 인천광역시)이 거주지나 소득근거지인 사람 (1순위만 모집, 2·3순위 미모집)"
+     },
+     "priority": null,
+     "info": [
+      "본인이 입주 전까지 청약저축 가입 증명"
+     ],
+     "needsCheck": [
+      "6세 이하 자녀(태아 포함)를 둔 한부모"
+     ],
+     "evidence": [
+      "공고문 3-3 '①-㉰ 한부모가족: 6세 이하 자녀를 둔 한부모인 자'",
+      "'월평균소득 100%(2인 110%)' · 총자산 34,500만원 · 자동차 4,542만원"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "lh-2015122300021098-2",
+   "name": "강동천호 행복주택",
+   "region": "seoul",
+   "source": "lh",
+   "kind": "행복주택 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?aisTpCd=10&ccrCnntSysDsCd=03&mi=1026&panId=2015122300021098&uppAisTpCd=06",
+   "address": "서울특별시 강동구 진황도로23길 7 (천호동 555)",
+   "district": "강동구",
+   "station": "천호역",
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T10:00:00+09:00",
+   "applyEnd": "2026-12-01T17:00:00+09:00",
+   "applyNote": "LH청약플러스 인터넷·모바일 접수 (현장접수는 고령자 등 주거약자만 11/30)",
+   "announce": "서류대상 12/4(금) 17:00 · 최종 2027-03-26",
+   "area": "36.33㎡",
+   "price": "36B 청년 1억 836만 / 월 40.64만",
+   "supply": "예비자 10명",
+   "reserve": true,
+   "dupRule": "공고 내 1세대 1주택(1개 단지·1개 주택형)만 — 중복 신청 시 전부 무효",
+   "memo": "36B형 청년(소득 유무별 임대조건)·신혼부부·한부모",
+   "tracks": [
+    {
+     "label": "청년 계층 (만 19~39세)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": [
+      "single",
+      "engaged"
+     ],
+     "homeless": true,
+     "incomePct": 100,
+     "incomePctSingle": 120,
+     "incomePctByHh": {
+      "1": 120,
+      "2": 110
+     },
+     "assetMax": 251000000,
+     "carMax": 45420000,
+     "residence": {
+      "areas": [
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "의정부시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "남양주시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "구리시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "하남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "성남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "과천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "안양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "광명시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "고양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "양주시"
+       }
+      ],
+      "date": "2026-11-19",
+      "allowJob": true,
+      "text": "공고일(11/19) 현재 서울 또는 연접지역(의정부·남양주·구리·하남·성남·과천·안양·광명·부천·김포·고양·양주시, 인천광역시)이 거주지나 소득근거지(직장)인 사람 (1순위만 모집, 2·3순위 미모집)"
+     },
+     "priority": null,
+     "info": [
+      "입주 전까지 주택청약종합저축(청약저축) 가입 증명 필요 — 미제출 시 당첨 취소",
+      "소득근거지는 사업자등록증 소재지 기준, 실제 근무지가 다르면 재직증명서·근로계약서 추가 제출",
+      "예비입주자 모집 — 공가 발생 시 순번대로 계약, 입주까지 상당기간 소요"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 3-2 '19세 이상 39세 이하(1986.11.20.~2007.11.19. 출생)' · '혼인 중이 아닐 것' · 무주택(본인만 검증)",
+      "'월평균소득 100% 이하, 단 1인 120%·2인 110%' · '총자산 25,100만원 이하, 자동차 4,542만원 이하'",
+      "순위: '1순위 서울 또는 연접지역이 거주지나 소득 근거지인 자 / 2,3순위 이번 공고는 모집하지 않음'"
+     ]
+    },
+    {
+     "label": "청년 계층 (사회초년생)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": [
+      "single",
+      "engaged"
+     ],
+     "homeless": true,
+     "incomePct": 100,
+     "incomePctSingle": 120,
+     "incomePctByHh": {
+      "1": 120,
+      "2": 110
+     },
+     "assetMax": 251000000,
+     "carMax": 45420000,
+     "residence": {
+      "areas": [
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "의정부시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "남양주시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "구리시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "하남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "성남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "과천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "안양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "광명시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "고양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "양주시"
+       }
+      ],
+      "date": "2026-11-19",
+      "allowJob": true,
+      "text": "공고일(11/19) 현재 서울 또는 연접지역(의정부·남양주·구리·하남·성남·과천·안양·광명·부천·김포·고양·양주시, 인천광역시)이 거주지나 소득근거지(직장)인 사람 (1순위만 모집, 2·3순위 미모집)"
+     },
+     "priority": null,
+     "info": [
+      "입주 전까지 주택청약종합저축(청약저축) 가입 증명 필요 — 미제출 시 당첨 취소",
+      "소득근거지는 사업자등록증 소재지 기준, 실제 근무지가 다르면 재직증명서·근로계약서 추가 제출",
+      "예비입주자 모집 — 공가 발생 시 순번대로 계약, 입주까지 상당기간 소요"
+     ],
+     "needsCheck": [
+      "소득 있는 업무 종사기간 총 5년 이내 (재직 중, 퇴직 1년 이내 구직급여 수급자, 또는 예술인)"
+     ],
+     "evidence": [
+      "공고문 3-2 ①-㉯ '사회초년생: 소득이 있는 업무에 종사한 기간이 총 5년 이내' (나이 제한 없음) · '혼인 중이 아닐 것'",
+      "'월평균소득 100% 이하, 단 1인 120%·2인 110%' · '총자산 25,100만원 이하, 자동차 4,542만원 이하'",
+      "순위: '1순위 서울 또는 연접지역이 거주지나 소득 근거지인 자 / 2,3순위 이번 공고는 모집하지 않음'"
+     ]
+    },
+    {
+     "label": "신혼부부 계층 ((예비)신혼부부)",
+     "target": "newlywed",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": [
+      "engaged",
+      "newlywed"
+     ],
+     "homeless": true,
+     "incomePct": 120,
+     "incomePctSingle": null,
+     "incomePctByHh": {
+      "2": 130
+     },
+     "assetMax": 345000000,
+     "carMax": 45420000,
+     "residence": {
+      "areas": [
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "의정부시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "남양주시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "구리시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "하남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "성남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "과천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "안양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "광명시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "고양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "양주시"
+       }
+      ],
+      "date": "2026-11-19",
+      "allowJob": true,
+      "text": "공고일(11/19) 현재 서울 또는 연접지역(의정부·남양주·구리·하남·성남·과천·안양·광명·부천·김포·고양·양주시, 인천광역시)이 (본인 또는 배우자의) 거주지나 소득근거지인 사람 (1순위만 모집, 2·3순위 미모집)"
+     },
+     "priority": null,
+     "info": [
+      "혼인 7년 이내 또는 6세 이하 자녀를 둔 경우 신혼부부로 인정",
+      "본인 또는 배우자가 입주 전까지 청약저축 가입 증명",
+      "36A·36B형은 청년과 신혼부부 물량을 통합 추첨",
+      "예비입주자 모집 — 입주까지 상당기간 소요"
+     ],
+     "needsCheck": [
+      "맞벌이가 아니면 소득 100%(2인 110%) 이하 — 맞벌이만 120%(2인 130%)"
+     ],
+     "evidence": [
+      "공고문 3-3 '혼인기간 7년 이내 또는 6세 이하 자녀' · 예비신혼부부는 입주 전 혼인 증명",
+      "'월평균소득 100%(맞벌이 120%), 2인 110%(맞벌이 130%)' · '총자산 34,500만원, 자동차 4,542만원 이하'",
+      "순위: 본인 또는 배우자가 서울·연접지역 거주지나 소득근거지인 1순위만 모집"
+     ]
+    },
+    {
+     "label": "한부모가족 계층 (6세 이하 자녀)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 100,
+     "incomePctSingle": null,
+     "incomePctByHh": {
+      "2": 110
+     },
+     "assetMax": 345000000,
+     "carMax": 45420000,
+     "residence": {
+      "areas": [
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "의정부시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "남양주시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "구리시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "하남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "성남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "과천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "안양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "광명시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "고양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "양주시"
+       }
+      ],
+      "date": "2026-11-19",
+      "allowJob": true,
+      "text": "공고일(11/19) 현재 서울 또는 연접지역(의정부·남양주·구리·하남·성남·과천·안양·광명·부천·김포·고양·양주시, 인천광역시)이 거주지나 소득근거지인 사람 (1순위만 모집, 2·3순위 미모집)"
+     },
+     "priority": null,
+     "info": [
+      "본인이 입주 전까지 청약저축 가입 증명"
+     ],
+     "needsCheck": [
+      "6세 이하 자녀(태아 포함)를 둔 한부모"
+     ],
+     "evidence": [
+      "공고문 3-3 '①-㉰ 한부모가족: 6세 이하 자녀를 둔 한부모인 자'",
+      "'월평균소득 100%(2인 110%)' · 총자산 34,500만원 · 자동차 4,542만원"
+     ]
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 37,
+     "pm": 41,
+     "tr": 1,
+     "walk": 21,
+     "path": "도보 12분 → <b>8호선</b> 천호→잠실 5분 → 환승 3분 → <b>2호선</b> 잠실→선릉 7분 → 도보 6분"
+    }
+   }
+  },
+  {
+   "id": "lh-2015122300021098-3",
+   "name": "LH수서1 행복주택",
+   "region": "seoul",
+   "source": "lh",
+   "kind": "행복주택 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?aisTpCd=10&ccrCnntSysDsCd=03&mi=1026&panId=2015122300021098&uppAisTpCd=06",
+   "address": "서울특별시 강남구 밤고개로 165 (자곡동, 수서역세권 A1BL)",
+   "district": "강남구",
+   "station": "수서역",
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T10:00:00+09:00",
+   "applyEnd": "2026-12-01T17:00:00+09:00",
+   "applyNote": "LH청약플러스 인터넷·모바일 접수 (현장접수는 고령자 등 주거약자만 11/30)",
+   "announce": "서류대상 12/4(금) 17:00 · 최종 2027-03-26",
+   "area": "14.69~44.89㎡",
+   "price": "14A 청년 5,220만 / 월 18.27만",
+   "supply": "예비자 170명",
+   "reserve": true,
+   "dupRule": "공고 내 1세대 1주택(1개 단지·1개 주택형)만 — 중복 신청 시 전부 무효",
+   "memo": "14A 대학생·청년 · 26A 주거급여 · 36A/B 청년·신혼 · 44A 신혼",
+   "tracks": [
+    {
+     "label": "청년 계층 (만 19~39세)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": [
+      "single",
+      "engaged"
+     ],
+     "homeless": true,
+     "incomePct": 100,
+     "incomePctSingle": 120,
+     "incomePctByHh": {
+      "1": 120,
+      "2": 110
+     },
+     "assetMax": 251000000,
+     "carMax": 45420000,
+     "residence": {
+      "areas": [
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "의정부시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "남양주시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "구리시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "하남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "성남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "과천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "안양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "광명시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "고양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "양주시"
+       }
+      ],
+      "date": "2026-11-19",
+      "allowJob": true,
+      "text": "공고일(11/19) 현재 서울 또는 연접지역(의정부·남양주·구리·하남·성남·과천·안양·광명·부천·김포·고양·양주시, 인천광역시)이 거주지나 소득근거지(직장)인 사람 (1순위만 모집, 2·3순위 미모집)"
+     },
+     "priority": null,
+     "info": [
+      "입주 전까지 주택청약종합저축(청약저축) 가입 증명 필요 — 미제출 시 당첨 취소",
+      "소득근거지는 사업자등록증 소재지 기준, 실제 근무지가 다르면 재직증명서·근로계약서 추가 제출",
+      "예비입주자 모집 — 공가 발생 시 순번대로 계약, 입주까지 상당기간 소요"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 3-2 '19세 이상 39세 이하(1986.11.20.~2007.11.19. 출생)' · '혼인 중이 아닐 것' · 무주택(본인만 검증)",
+      "'월평균소득 100% 이하, 단 1인 120%·2인 110%' · '총자산 25,100만원 이하, 자동차 4,542만원 이하'",
+      "순위: '1순위 서울 또는 연접지역이 거주지나 소득 근거지인 자 / 2,3순위 이번 공고는 모집하지 않음'"
+     ]
+    },
+    {
+     "label": "청년 계층 (사회초년생)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": [
+      "single",
+      "engaged"
+     ],
+     "homeless": true,
+     "incomePct": 100,
+     "incomePctSingle": 120,
+     "incomePctByHh": {
+      "1": 120,
+      "2": 110
+     },
+     "assetMax": 251000000,
+     "carMax": 45420000,
+     "residence": {
+      "areas": [
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "의정부시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "남양주시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "구리시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "하남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "성남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "과천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "안양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "광명시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "고양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "양주시"
+       }
+      ],
+      "date": "2026-11-19",
+      "allowJob": true,
+      "text": "공고일(11/19) 현재 서울 또는 연접지역(의정부·남양주·구리·하남·성남·과천·안양·광명·부천·김포·고양·양주시, 인천광역시)이 거주지나 소득근거지(직장)인 사람 (1순위만 모집, 2·3순위 미모집)"
+     },
+     "priority": null,
+     "info": [
+      "입주 전까지 주택청약종합저축(청약저축) 가입 증명 필요 — 미제출 시 당첨 취소",
+      "소득근거지는 사업자등록증 소재지 기준, 실제 근무지가 다르면 재직증명서·근로계약서 추가 제출",
+      "예비입주자 모집 — 공가 발생 시 순번대로 계약, 입주까지 상당기간 소요"
+     ],
+     "needsCheck": [
+      "소득 있는 업무 종사기간 총 5년 이내 (재직 중, 퇴직 1년 이내 구직급여 수급자, 또는 예술인)"
+     ],
+     "evidence": [
+      "공고문 3-2 ①-㉯ '사회초년생: 소득이 있는 업무에 종사한 기간이 총 5년 이내' (나이 제한 없음) · '혼인 중이 아닐 것'",
+      "'월평균소득 100% 이하, 단 1인 120%·2인 110%' · '총자산 25,100만원 이하, 자동차 4,542만원 이하'",
+      "순위: '1순위 서울 또는 연접지역이 거주지나 소득 근거지인 자 / 2,3순위 이번 공고는 모집하지 않음'"
+     ]
+    },
+    {
+     "label": "대학생 계층 (대학생·취업준비생)",
+     "target": "restricted",
+     "restrictedTo": "대학 재학생(다음 학기 입·복학 예정 포함) 또는 대학·고교 졸업·중퇴 2년 이내 취업준비생",
+     "age": null,
+     "ageDate": null,
+     "marital": [
+      "single",
+      "engaged"
+     ],
+     "homeless": true,
+     "incomePct": 100,
+     "incomePctSingle": 120,
+     "incomePctByHh": {
+      "1": 120,
+      "2": 110
+     },
+     "assetMax": 108000000,
+     "carMax": null,
+     "residence": {
+      "areas": [
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "의정부시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "남양주시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "구리시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "하남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "성남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "과천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "안양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "광명시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "고양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "양주시"
+       }
+      ],
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울 또는 연접지역(의정부·남양주·구리·하남·성남·과천·안양·광명·부천·김포·고양·양주시, 인천광역시)이 거주지나 재학 중인 대학 소재지인 사람 (1순위만 모집, 2·3순위 미모집)"
+     },
+     "priority": null,
+     "info": [
+      "14A형은 대학생·청년 계층 물량을 통합 추첨"
+     ],
+     "needsCheck": [
+      "자동차가액 산출대상 자동차 미소유",
+      "소득은 신청자 본인과 부모 합산"
+     ],
+     "evidence": [
+      "공고문 3-1 대학생·취업준비생, '혼인 중이 아닐 것'",
+      "'부모와 본인 월평균소득 합계 100%(1인 120%, 2인 110%)' · '총자산 10,800만원 이하, 자동차 미소유'"
+     ]
+    },
+    {
+     "label": "신혼부부 계층 ((예비)신혼부부)",
+     "target": "newlywed",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": [
+      "engaged",
+      "newlywed"
+     ],
+     "homeless": true,
+     "incomePct": 120,
+     "incomePctSingle": null,
+     "incomePctByHh": {
+      "2": 130
+     },
+     "assetMax": 345000000,
+     "carMax": 45420000,
+     "residence": {
+      "areas": [
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "의정부시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "남양주시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "구리시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "하남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "성남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "과천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "안양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "광명시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "고양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "양주시"
+       }
+      ],
+      "date": "2026-11-19",
+      "allowJob": true,
+      "text": "공고일(11/19) 현재 서울 또는 연접지역(의정부·남양주·구리·하남·성남·과천·안양·광명·부천·김포·고양·양주시, 인천광역시)이 (본인 또는 배우자의) 거주지나 소득근거지인 사람 (1순위만 모집, 2·3순위 미모집)"
+     },
+     "priority": null,
+     "info": [
+      "혼인 7년 이내 또는 6세 이하 자녀를 둔 경우 신혼부부로 인정",
+      "본인 또는 배우자가 입주 전까지 청약저축 가입 증명",
+      "36A·36B형은 청년과 신혼부부 물량을 통합 추첨",
+      "예비입주자 모집 — 입주까지 상당기간 소요"
+     ],
+     "needsCheck": [
+      "맞벌이가 아니면 소득 100%(2인 110%) 이하 — 맞벌이만 120%(2인 130%)"
+     ],
+     "evidence": [
+      "공고문 3-3 '혼인기간 7년 이내 또는 6세 이하 자녀' · 예비신혼부부는 입주 전 혼인 증명",
+      "'월평균소득 100%(맞벌이 120%), 2인 110%(맞벌이 130%)' · '총자산 34,500만원, 자동차 4,542만원 이하'",
+      "순위: 본인 또는 배우자가 서울·연접지역 거주지나 소득근거지인 1순위만 모집"
+     ]
+    },
+    {
+     "label": "한부모가족 계층 (6세 이하 자녀)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 100,
+     "incomePctSingle": null,
+     "incomePctByHh": {
+      "2": 110
+     },
+     "assetMax": 345000000,
+     "carMax": 45420000,
+     "residence": {
+      "areas": [
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "의정부시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "남양주시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "구리시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "하남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "성남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "과천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "안양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "광명시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "고양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "양주시"
+       }
+      ],
+      "date": "2026-11-19",
+      "allowJob": true,
+      "text": "공고일(11/19) 현재 서울 또는 연접지역(의정부·남양주·구리·하남·성남·과천·안양·광명·부천·김포·고양·양주시, 인천광역시)이 거주지나 소득근거지인 사람 (1순위만 모집, 2·3순위 미모집)"
+     },
+     "priority": null,
+     "info": [
+      "본인이 입주 전까지 청약저축 가입 증명"
+     ],
+     "needsCheck": [
+      "6세 이하 자녀(태아 포함)를 둔 한부모"
+     ],
+     "evidence": [
+      "공고문 3-3 '①-㉰ 한부모가족: 6세 이하 자녀를 둔 한부모인 자'",
+      "'월평균소득 100%(2인 110%)' · 총자산 34,500만원 · 자동차 4,542만원"
+     ]
+    },
+    {
+     "label": "주거급여수급자 계층",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": null,
+     "priority": null,
+     "info": [
+      "주거급여수급자 계층은 공고문에 지역 순위 규정이 없음 (경쟁 시 추첨)"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 3-5 '입주자모집공고일 현재 무주택세대구성원인 주거급여수급자'",
+      "「주거급여법」 제2조 제2호·제3호 수급권자 또는 수급자"
+     ]
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 32,
+     "pm": 32,
+     "tr": 1,
+     "walk": 14,
+     "path": "도보 2분 → <b>마을버스 강남03</b> 3분 → 도보 5분 → <b>수인분당선</b> 수서→선릉 12분 → 도보 7분"
+    }
+   }
+  },
+  {
+   "id": "lh-2015122300021098-4",
+   "name": "LH수서2 행복주택",
+   "region": "seoul",
+   "source": "lh",
+   "kind": "행복주택 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?aisTpCd=10&ccrCnntSysDsCd=03&mi=1026&panId=2015122300021098&uppAisTpCd=06",
+   "address": "서울특별시 강남구 자곡로11길 28 (자곡동 138-2, 수서역세권 A2BL)",
+   "district": "강남구",
+   "station": "수서역",
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T10:00:00+09:00",
+   "applyEnd": "2026-12-01T17:00:00+09:00",
+   "applyNote": "LH청약플러스 인터넷·모바일 접수 (현장접수는 고령자 등 주거약자만 11/30)",
+   "announce": "서류대상 12/4(금) 17:00 · 최종 2027-03-26",
+   "area": "14.69~44.89㎡",
+   "price": "14A 청년 5,220만 / 월 18.27만",
+   "supply": "예비자 190명",
+   "reserve": true,
+   "dupRule": "공고 내 1세대 1주택(1개 단지·1개 주택형)만 — 중복 신청 시 전부 무효",
+   "memo": "14A 대학생·청년 · 26A 청년 · 26B 고령자 · 36A/B 청년·신혼 · 44A/C 신혼",
+   "tracks": [
+    {
+     "label": "청년 계층 (만 19~39세)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": [
+      "single",
+      "engaged"
+     ],
+     "homeless": true,
+     "incomePct": 100,
+     "incomePctSingle": 120,
+     "incomePctByHh": {
+      "1": 120,
+      "2": 110
+     },
+     "assetMax": 251000000,
+     "carMax": 45420000,
+     "residence": {
+      "areas": [
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "의정부시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "남양주시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "구리시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "하남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "성남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "과천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "안양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "광명시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "고양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "양주시"
+       }
+      ],
+      "date": "2026-11-19",
+      "allowJob": true,
+      "text": "공고일(11/19) 현재 서울 또는 연접지역(의정부·남양주·구리·하남·성남·과천·안양·광명·부천·김포·고양·양주시, 인천광역시)이 거주지나 소득근거지(직장)인 사람 (1순위만 모집, 2·3순위 미모집)"
+     },
+     "priority": null,
+     "info": [
+      "입주 전까지 주택청약종합저축(청약저축) 가입 증명 필요 — 미제출 시 당첨 취소",
+      "소득근거지는 사업자등록증 소재지 기준, 실제 근무지가 다르면 재직증명서·근로계약서 추가 제출",
+      "예비입주자 모집 — 공가 발생 시 순번대로 계약, 입주까지 상당기간 소요"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 3-2 '19세 이상 39세 이하(1986.11.20.~2007.11.19. 출생)' · '혼인 중이 아닐 것' · 무주택(본인만 검증)",
+      "'월평균소득 100% 이하, 단 1인 120%·2인 110%' · '총자산 25,100만원 이하, 자동차 4,542만원 이하'",
+      "순위: '1순위 서울 또는 연접지역이 거주지나 소득 근거지인 자 / 2,3순위 이번 공고는 모집하지 않음'"
+     ]
+    },
+    {
+     "label": "청년 계층 (사회초년생)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": [
+      "single",
+      "engaged"
+     ],
+     "homeless": true,
+     "incomePct": 100,
+     "incomePctSingle": 120,
+     "incomePctByHh": {
+      "1": 120,
+      "2": 110
+     },
+     "assetMax": 251000000,
+     "carMax": 45420000,
+     "residence": {
+      "areas": [
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "의정부시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "남양주시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "구리시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "하남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "성남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "과천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "안양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "광명시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "고양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "양주시"
+       }
+      ],
+      "date": "2026-11-19",
+      "allowJob": true,
+      "text": "공고일(11/19) 현재 서울 또는 연접지역(의정부·남양주·구리·하남·성남·과천·안양·광명·부천·김포·고양·양주시, 인천광역시)이 거주지나 소득근거지(직장)인 사람 (1순위만 모집, 2·3순위 미모집)"
+     },
+     "priority": null,
+     "info": [
+      "입주 전까지 주택청약종합저축(청약저축) 가입 증명 필요 — 미제출 시 당첨 취소",
+      "소득근거지는 사업자등록증 소재지 기준, 실제 근무지가 다르면 재직증명서·근로계약서 추가 제출",
+      "예비입주자 모집 — 공가 발생 시 순번대로 계약, 입주까지 상당기간 소요"
+     ],
+     "needsCheck": [
+      "소득 있는 업무 종사기간 총 5년 이내 (재직 중, 퇴직 1년 이내 구직급여 수급자, 또는 예술인)"
+     ],
+     "evidence": [
+      "공고문 3-2 ①-㉯ '사회초년생: 소득이 있는 업무에 종사한 기간이 총 5년 이내' (나이 제한 없음) · '혼인 중이 아닐 것'",
+      "'월평균소득 100% 이하, 단 1인 120%·2인 110%' · '총자산 25,100만원 이하, 자동차 4,542만원 이하'",
+      "순위: '1순위 서울 또는 연접지역이 거주지나 소득 근거지인 자 / 2,3순위 이번 공고는 모집하지 않음'"
+     ]
+    },
+    {
+     "label": "대학생 계층 (대학생·취업준비생)",
+     "target": "restricted",
+     "restrictedTo": "대학 재학생(다음 학기 입·복학 예정 포함) 또는 대학·고교 졸업·중퇴 2년 이내 취업준비생",
+     "age": null,
+     "ageDate": null,
+     "marital": [
+      "single",
+      "engaged"
+     ],
+     "homeless": true,
+     "incomePct": 100,
+     "incomePctSingle": 120,
+     "incomePctByHh": {
+      "1": 120,
+      "2": 110
+     },
+     "assetMax": 108000000,
+     "carMax": null,
+     "residence": {
+      "areas": [
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "의정부시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "남양주시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "구리시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "하남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "성남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "과천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "안양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "광명시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "고양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "양주시"
+       }
+      ],
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울 또는 연접지역(의정부·남양주·구리·하남·성남·과천·안양·광명·부천·김포·고양·양주시, 인천광역시)이 거주지나 재학 중인 대학 소재지인 사람 (1순위만 모집, 2·3순위 미모집)"
+     },
+     "priority": null,
+     "info": [
+      "14A형은 대학생·청년 계층 물량을 통합 추첨"
+     ],
+     "needsCheck": [
+      "자동차가액 산출대상 자동차 미소유",
+      "소득은 신청자 본인과 부모 합산"
+     ],
+     "evidence": [
+      "공고문 3-1 대학생·취업준비생, '혼인 중이 아닐 것'",
+      "'부모와 본인 월평균소득 합계 100%(1인 120%, 2인 110%)' · '총자산 10,800만원 이하, 자동차 미소유'"
+     ]
+    },
+    {
+     "label": "신혼부부 계층 ((예비)신혼부부)",
+     "target": "newlywed",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": [
+      "engaged",
+      "newlywed"
+     ],
+     "homeless": true,
+     "incomePct": 120,
+     "incomePctSingle": null,
+     "incomePctByHh": {
+      "2": 130
+     },
+     "assetMax": 345000000,
+     "carMax": 45420000,
+     "residence": {
+      "areas": [
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "의정부시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "남양주시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "구리시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "하남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "성남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "과천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "안양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "광명시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "고양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "양주시"
+       }
+      ],
+      "date": "2026-11-19",
+      "allowJob": true,
+      "text": "공고일(11/19) 현재 서울 또는 연접지역(의정부·남양주·구리·하남·성남·과천·안양·광명·부천·김포·고양·양주시, 인천광역시)이 (본인 또는 배우자의) 거주지나 소득근거지인 사람 (1순위만 모집, 2·3순위 미모집)"
+     },
+     "priority": null,
+     "info": [
+      "혼인 7년 이내 또는 6세 이하 자녀를 둔 경우 신혼부부로 인정",
+      "본인 또는 배우자가 입주 전까지 청약저축 가입 증명",
+      "36A·36B형은 청년과 신혼부부 물량을 통합 추첨",
+      "예비입주자 모집 — 입주까지 상당기간 소요"
+     ],
+     "needsCheck": [
+      "맞벌이가 아니면 소득 100%(2인 110%) 이하 — 맞벌이만 120%(2인 130%)"
+     ],
+     "evidence": [
+      "공고문 3-3 '혼인기간 7년 이내 또는 6세 이하 자녀' · 예비신혼부부는 입주 전 혼인 증명",
+      "'월평균소득 100%(맞벌이 120%), 2인 110%(맞벌이 130%)' · '총자산 34,500만원, 자동차 4,542만원 이하'",
+      "순위: 본인 또는 배우자가 서울·연접지역 거주지나 소득근거지인 1순위만 모집"
+     ]
+    },
+    {
+     "label": "한부모가족 계층 (6세 이하 자녀)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 100,
+     "incomePctSingle": null,
+     "incomePctByHh": {
+      "2": 110
+     },
+     "assetMax": 345000000,
+     "carMax": 45420000,
+     "residence": {
+      "areas": [
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "의정부시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "남양주시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "구리시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "하남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "성남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "과천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "안양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "광명시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "고양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "양주시"
+       }
+      ],
+      "date": "2026-11-19",
+      "allowJob": true,
+      "text": "공고일(11/19) 현재 서울 또는 연접지역(의정부·남양주·구리·하남·성남·과천·안양·광명·부천·김포·고양·양주시, 인천광역시)이 거주지나 소득근거지인 사람 (1순위만 모집, 2·3순위 미모집)"
+     },
+     "priority": null,
+     "info": [
+      "본인이 입주 전까지 청약저축 가입 증명"
+     ],
+     "needsCheck": [
+      "6세 이하 자녀(태아 포함)를 둔 한부모"
+     ],
+     "evidence": [
+      "공고문 3-3 '①-㉰ 한부모가족: 6세 이하 자녀를 둔 한부모인 자'",
+      "'월평균소득 100%(2인 110%)' · 총자산 34,500만원 · 자동차 4,542만원"
+     ]
+    },
+    {
+     "label": "고령자 계층 (주거약자용)",
+     "target": "restricted",
+     "restrictedTo": "공고일 기준 만 65세 이상 고령자 (1961.11.19. 이전 출생)",
+     "age": [
+      65,
+      120
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 100,
+     "incomePctSingle": 120,
+     "incomePctByHh": {
+      "1": 120,
+      "2": 110
+     },
+     "assetMax": 345000000,
+     "carMax": 45420000,
+     "residence": {
+      "areas": [
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "의정부시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "남양주시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "구리시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "하남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "성남시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "과천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "안양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "광명시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "고양시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "양주시"
+       }
+      ],
+      "date": "2026-11-19",
+      "allowJob": true,
+      "text": "공고일(11/19) 현재 서울 또는 연접지역(의정부·남양주·구리·하남·성남·과천·안양·광명·부천·김포·고양·양주시, 인천광역시)이 거주지나 소득근거지인 사람 (1순위만 모집, 2·3순위 미모집)"
+     },
+     "priority": null,
+     "info": [
+      "65세 이상 등 인터넷 신청이 어려우면 11/30(월) 10:00~16:00 현장접수 (서울 강남구 선릉로 514 성원타워 4층)"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 3-4 '65세 이상(1961.11.19. 이전 출생) 무주택세대구성원'",
+      "'월평균소득 100%(1인 120%, 2인 110%)' · 총자산 34,500만원 · 자동차 4,542만원"
+     ]
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 36,
+     "pm": 36,
+     "tr": 1,
+     "walk": 18,
+     "path": "도보 6분 → <b>마을버스 강남03</b> 3분 → 도보 5분 → <b>수인분당선</b> 수서→선릉 12분 → 도보 7분"
+    }
+   }
+  },
+  {
+   "id": "lh-2015122300021109-1",
+   "name": "양원S1 영구임대",
+   "region": "seoul",
+   "source": "lh",
+   "kind": "영구임대 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021109&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+   "address": "서울특별시 중랑구 양원역로 92 (망우동)",
+   "district": "중랑구",
+   "station": "양원역",
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T00:00:00+09:00",
+   "applyEnd": "2026-12-04T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 현장접수 (평일)",
+   "announce": "2027-03-25(목) 16:00",
+   "area": "26.75㎡",
+   "price": "수급자 304.4만 / 월 6.07만 · 그 외 2,149만 / 월 13.2만",
+   "supply": "예비자 14명",
+   "reserve": true,
+   "dupRule": "1개 단지 1개 평형만 · LH·SH 영구임대 공고를 통틀어 1곳만 — 중복 시 전부 무효",
+   "memo": "국민임대 혼재 단지",
+   "tracks": [
+    {
+     "label": "수급자 등 (생계·의료급여 수급자, 위안부 피해자, 지원대상 한부모가족, 65세 이상 수급권자·차상위 등)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)",
+      "예비입주자 — 기존 대기자 다음 순번, 입주까지 1년 이상 걸릴 수 있음"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "LH 공고문 '모집공고일(2026.11.19.) 현재 서울특별시에 거주하는 성년자인 무주택세대구성원'",
+      "공공주택특별법 시행규칙 별표3 제1호 일반공급 1순위 가·다·라·사·자목"
+     ]
+    },
+    {
+     "label": "국가유공자·장애인·북한이탈주민·아동복지시설퇴소자 (소득 70% 이하)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 70,
+     "incomePctSingle": 90,
+     "incomePctByHh": {
+      "1": 90,
+      "2": 80
+     },
+     "assetMax": 245000000,
+     "carMax": 45420000,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "LH 공고문 나·마·바·아목 '월평균소득 70% 이하(가구원수 1명 90%, 2명 80%)'",
+      "'총자산 24,500만원 이하 · 개별 자동차가액 4,542만원 이하'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "lh-2015122300021109-2",
+   "name": "대방 영구임대",
+   "region": "seoul",
+   "source": "lh",
+   "kind": "영구임대 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021109&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+   "address": "서울특별시 동작구 여의대방로44길 47 (대방동)",
+   "district": "동작구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T00:00:00+09:00",
+   "applyEnd": "2026-12-04T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 현장접수 (평일)",
+   "announce": "2027-03-25(목) 16:00",
+   "area": "26.37~31.32㎡",
+   "price": "수급자 280.1만~332.8만 / 월 5.58~6.62만 · 그 외 648.8만~829.2만 / 월 8.96~10.65만",
+   "supply": "예비자 120명",
+   "reserve": true,
+   "dupRule": "1개 단지 1개 평형만 · LH·SH 영구임대 공고를 통틀어 1곳만 — 중복 시 전부 무효",
+   "memo": "수급자·국가유공자·장애인·한부모 등 특정 계층만",
+   "tracks": [
+    {
+     "label": "수급자 등 (생계·의료급여 수급자, 위안부 피해자, 지원대상 한부모가족, 65세 이상 수급권자·차상위 등)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)",
+      "예비입주자 — 기존 대기자 다음 순번, 입주까지 1년 이상 걸릴 수 있음"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "LH 공고문 '모집공고일(2026.11.19.) 현재 서울특별시에 거주하는 성년자인 무주택세대구성원'",
+      "공공주택특별법 시행규칙 별표3 제1호 일반공급 1순위 가·다·라·사·자목"
+     ]
+    },
+    {
+     "label": "국가유공자·장애인·북한이탈주민·아동복지시설퇴소자 (소득 70% 이하)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 70,
+     "incomePctSingle": 90,
+     "incomePctByHh": {
+      "1": 90,
+      "2": 80
+     },
+     "assetMax": 245000000,
+     "carMax": 45420000,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "LH 공고문 나·마·바·아목 '월평균소득 70% 이하(가구원수 1명 90%, 2명 80%)'",
+      "'총자산 24,500만원 이하 · 개별 자동차가액 4,542만원 이하'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "lh-2015122300021109-3",
+   "name": "독산 영구임대",
+   "region": "seoul",
+   "source": "lh",
+   "kind": "영구임대 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021109&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+   "address": "서울특별시 금천구 한내로 69-15 (독산동)",
+   "district": "금천구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T00:00:00+09:00",
+   "applyEnd": "2026-12-04T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 현장접수 (평일)",
+   "announce": "2027-03-25(목) 16:00",
+   "area": "36.54~40.32㎡",
+   "price": "수급자 388.3만~428.5만 / 월 5.49~6.78만 · 그 외 899만~992만 / 월 15.55~17.41만",
+   "supply": "예비자 25명",
+   "reserve": true,
+   "dupRule": "1개 단지 1개 평형만 · LH·SH 영구임대 공고를 통틀어 1곳만 — 중복 시 전부 무효",
+   "memo": "수급자·국가유공자·장애인·한부모 등 특정 계층만",
+   "tracks": [
+    {
+     "label": "수급자 등 (생계·의료급여 수급자, 위안부 피해자, 지원대상 한부모가족, 65세 이상 수급권자·차상위 등)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)",
+      "예비입주자 — 기존 대기자 다음 순번, 입주까지 1년 이상 걸릴 수 있음"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "LH 공고문 '모집공고일(2026.11.19.) 현재 서울특별시에 거주하는 성년자인 무주택세대구성원'",
+      "공공주택특별법 시행규칙 별표3 제1호 일반공급 1순위 가·다·라·사·자목"
+     ]
+    },
+    {
+     "label": "국가유공자·장애인·북한이탈주민·아동복지시설퇴소자 (소득 70% 이하)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 70,
+     "incomePctSingle": 90,
+     "incomePctByHh": {
+      "1": 90,
+      "2": 80
+     },
+     "assetMax": 245000000,
+     "carMax": 45420000,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "LH 공고문 나·마·바·아목 '월평균소득 70% 이하(가구원수 1명 90%, 2명 80%)'",
+      "'총자산 24,500만원 이하 · 개별 자동차가액 4,542만원 이하'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313610-1",
+   "name": "SH 대치1 영구임대",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "영구임대 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313610",
+   "address": "서울특별시 강남구 개포로109길 5 (개포동 12)",
+   "district": "강남구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T00:00:00+09:00",
+   "applyEnd": "2026-12-04T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 현장접수 (평일)",
+   "announce": "2027-03-25(목) 16:00",
+   "area": "25·33㎡",
+   "price": "수급자 170만~223만 / 월 4.19~5.47만 · 그 외 512만~667만 / 월 7.07~9.22만",
+   "supply": "예비자 185명",
+   "reserve": true,
+   "dupRule": "1개 단지 1개 평형만 · LH·SH 영구임대 공고를 통틀어 1곳만 — 중복 시 전부 무효",
+   "memo": "수급자·국가유공자·장애인·한부모 등 특정 계층만 · 배점순 선정",
+   "tracks": [
+    {
+     "label": "수급자 등 (생계·의료급여 수급자, 위안부 피해자, 지원대상 한부모가족, 65세 이상 수급권자·차상위 등)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)",
+      "예비입주자 — 기존 대기자 다음 순번, 입주까지 1년 이상 걸릴 수 있음"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 '모집공고일(2026.11.19.) 현재 서울특별시에 거주하는 성년자인 무주택세대구성원'",
+      "공공주택특별법 시행규칙 별표3 제1호 일반공급 1순위 가·다·라·사·자목"
+     ]
+    },
+    {
+     "label": "국가유공자·장애인·북한이탈주민·아동복지시설퇴소자 (소득 70% 이하)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 70,
+     "incomePctSingle": 90,
+     "incomePctByHh": {
+      "1": 90,
+      "2": 80
+     },
+     "assetMax": 245000000,
+     "carMax": 45420000,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 나·마·바·아목 '월평균소득 70% 이하(가구원수 1명 90%, 2명 80%)'",
+      "'총자산 24,500만원 이하 · 개별 자동차가액 4,542만원 이하'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313610-2",
+   "name": "SH 세곡2-3 영구임대",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "영구임대 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313610",
+   "address": "서울특별시 강남구 밤고개로21길 25 (자곡동)",
+   "district": "강남구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T00:00:00+09:00",
+   "applyEnd": "2026-12-04T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 현장접수 (평일)",
+   "announce": "2027-03-25(목) 16:00",
+   "area": "49㎡",
+   "price": "수급자 460만 / 월 9.17만 · 그 외 3,745만 / 월 27.16만",
+   "supply": "예비자 10명",
+   "reserve": true,
+   "dupRule": "1개 단지 1개 평형만 · LH·SH 영구임대 공고를 통틀어 1곳만 — 중복 시 전부 무효",
+   "memo": "수급자·국가유공자·장애인·한부모 등 특정 계층만 · 배점순 선정",
+   "tracks": [
+    {
+     "label": "수급자 등 (생계·의료급여 수급자, 위안부 피해자, 지원대상 한부모가족, 65세 이상 수급권자·차상위 등)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)",
+      "예비입주자 — 기존 대기자 다음 순번, 입주까지 1년 이상 걸릴 수 있음"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 '모집공고일(2026.11.19.) 현재 서울특별시에 거주하는 성년자인 무주택세대구성원'",
+      "공공주택특별법 시행규칙 별표3 제1호 일반공급 1순위 가·다·라·사·자목"
+     ]
+    },
+    {
+     "label": "국가유공자·장애인·북한이탈주민·아동복지시설퇴소자 (소득 70% 이하)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 70,
+     "incomePctSingle": 90,
+     "incomePctByHh": {
+      "1": 90,
+      "2": 80
+     },
+     "assetMax": 245000000,
+     "carMax": 45420000,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 나·마·바·아목 '월평균소득 70% 이하(가구원수 1명 90%, 2명 80%)'",
+      "'총자산 24,500만원 이하 · 개별 자동차가액 4,542만원 이하'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313610-3",
+   "name": "SH 세곡2-4 영구임대",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "영구임대 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313610",
+   "address": "서울특별시 강남구 자곡로 260 (자곡동 286)",
+   "district": "강남구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T00:00:00+09:00",
+   "applyEnd": "2026-12-04T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 현장접수 (평일)",
+   "announce": "2027-03-25(목) 16:00",
+   "area": "49㎡",
+   "price": "수급자 460만 / 월 9.17만 · 그 외 3,728만 / 월 26.73만",
+   "supply": "예비자 10명",
+   "reserve": true,
+   "dupRule": "1개 단지 1개 평형만 · LH·SH 영구임대 공고를 통틀어 1곳만 — 중복 시 전부 무효",
+   "memo": "수급자·국가유공자·장애인·한부모 등 특정 계층만 · 배점순 선정",
+   "tracks": [
+    {
+     "label": "수급자 등 (생계·의료급여 수급자, 위안부 피해자, 지원대상 한부모가족, 65세 이상 수급권자·차상위 등)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)",
+      "예비입주자 — 기존 대기자 다음 순번, 입주까지 1년 이상 걸릴 수 있음"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 '모집공고일(2026.11.19.) 현재 서울특별시에 거주하는 성년자인 무주택세대구성원'",
+      "공공주택특별법 시행규칙 별표3 제1호 일반공급 1순위 가·다·라·사·자목"
+     ]
+    },
+    {
+     "label": "국가유공자·장애인·북한이탈주민·아동복지시설퇴소자 (소득 70% 이하)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 70,
+     "incomePctSingle": 90,
+     "incomePctByHh": {
+      "1": 90,
+      "2": 80
+     },
+     "assetMax": 245000000,
+     "carMax": 45420000,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 나·마·바·아목 '월평균소득 70% 이하(가구원수 1명 90%, 2명 80%)'",
+      "'총자산 24,500만원 이하 · 개별 자동차가액 4,542만원 이하'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313610-4",
+   "name": "SH 수서1 영구임대",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "영구임대 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313610",
+   "address": "서울특별시 강남구 양재대로55길 10 (일원동 711)",
+   "district": "강남구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T00:00:00+09:00",
+   "applyEnd": "2026-12-04T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 현장접수 (평일)",
+   "announce": "2027-03-25(목) 16:00",
+   "area": "25·33㎡",
+   "price": "수급자 171만~228만 / 월 4.22~5.62만 · 그 외 514만~682만 / 월 7.11~9.43만",
+   "supply": "예비자 120명",
+   "reserve": true,
+   "dupRule": "1개 단지 1개 평형만 · LH·SH 영구임대 공고를 통틀어 1곳만 — 중복 시 전부 무효",
+   "memo": "수급자·국가유공자·장애인·한부모 등 특정 계층만 · 배점순 선정",
+   "tracks": [
+    {
+     "label": "수급자 등 (생계·의료급여 수급자, 위안부 피해자, 지원대상 한부모가족, 65세 이상 수급권자·차상위 등)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)",
+      "예비입주자 — 기존 대기자 다음 순번, 입주까지 1년 이상 걸릴 수 있음"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 '모집공고일(2026.11.19.) 현재 서울특별시에 거주하는 성년자인 무주택세대구성원'",
+      "공공주택특별법 시행규칙 별표3 제1호 일반공급 1순위 가·다·라·사·자목"
+     ]
+    },
+    {
+     "label": "국가유공자·장애인·북한이탈주민·아동복지시설퇴소자 (소득 70% 이하)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 70,
+     "incomePctSingle": 90,
+     "incomePctByHh": {
+      "1": 90,
+      "2": 80
+     },
+     "assetMax": 245000000,
+     "carMax": 45420000,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 나·마·바·아목 '월평균소득 70% 이하(가구원수 1명 90%, 2명 80%)'",
+      "'총자산 24,500만원 이하 · 개별 자동차가액 4,542만원 이하'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313610-5",
+   "name": "SH 수서6 영구임대",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "영구임대 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313610",
+   "address": "서울특별시 강남구 광평로56길 11 (수서동 723)",
+   "district": "강남구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T00:00:00+09:00",
+   "applyEnd": "2026-12-04T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 현장접수 (평일)",
+   "announce": "2027-03-25(목) 16:00",
+   "area": "23㎡",
+   "price": "수급자 161만 / 월 3.97만 · 그 외 477만 / 월 6.61만",
+   "supply": "예비자 155명",
+   "reserve": true,
+   "dupRule": "1개 단지 1개 평형만 · LH·SH 영구임대 공고를 통틀어 1곳만 — 중복 시 전부 무효",
+   "memo": "수급자·국가유공자·장애인·한부모 등 특정 계층만 · 배점순 선정",
+   "tracks": [
+    {
+     "label": "수급자 등 (생계·의료급여 수급자, 위안부 피해자, 지원대상 한부모가족, 65세 이상 수급권자·차상위 등)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)",
+      "예비입주자 — 기존 대기자 다음 순번, 입주까지 1년 이상 걸릴 수 있음"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 '모집공고일(2026.11.19.) 현재 서울특별시에 거주하는 성년자인 무주택세대구성원'",
+      "공공주택특별법 시행규칙 별표3 제1호 일반공급 1순위 가·다·라·사·자목"
+     ]
+    },
+    {
+     "label": "국가유공자·장애인·북한이탈주민·아동복지시설퇴소자 (소득 70% 이하)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 70,
+     "incomePctSingle": 90,
+     "incomePctByHh": {
+      "1": 90,
+      "2": 80
+     },
+     "assetMax": 245000000,
+     "carMax": 45420000,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 나·마·바·아목 '월평균소득 70% 이하(가구원수 1명 90%, 2명 80%)'",
+      "'총자산 24,500만원 이하 · 개별 자동차가액 4,542만원 이하'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313610-6",
+   "name": "SH 가양4 영구임대",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "영구임대 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313610",
+   "address": "서울특별시 강서구 양천로57길 37 (가양동 1478)",
+   "district": "강서구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T00:00:00+09:00",
+   "applyEnd": "2026-12-04T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 현장접수 (평일)",
+   "announce": "2027-03-25(목) 16:00",
+   "area": "24㎡",
+   "price": "수급자 165만 / 월 4.09만 · 그 외 492만 / 월 6.89만",
+   "supply": "예비자 100명",
+   "reserve": true,
+   "dupRule": "1개 단지 1개 평형만 · LH·SH 영구임대 공고를 통틀어 1곳만 — 중복 시 전부 무효",
+   "memo": "수급자·국가유공자·장애인·한부모 등 특정 계층만 · 배점순 선정",
+   "tracks": [
+    {
+     "label": "수급자 등 (생계·의료급여 수급자, 위안부 피해자, 지원대상 한부모가족, 65세 이상 수급권자·차상위 등)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)",
+      "예비입주자 — 기존 대기자 다음 순번, 입주까지 1년 이상 걸릴 수 있음"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 '모집공고일(2026.11.19.) 현재 서울특별시에 거주하는 성년자인 무주택세대구성원'",
+      "공공주택특별법 시행규칙 별표3 제1호 일반공급 1순위 가·다·라·사·자목"
+     ]
+    },
+    {
+     "label": "국가유공자·장애인·북한이탈주민·아동복지시설퇴소자 (소득 70% 이하)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 70,
+     "incomePctSingle": 90,
+     "incomePctByHh": {
+      "1": 90,
+      "2": 80
+     },
+     "assetMax": 245000000,
+     "carMax": 45420000,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 나·마·바·아목 '월평균소득 70% 이하(가구원수 1명 90%, 2명 80%)'",
+      "'총자산 24,500만원 이하 · 개별 자동차가액 4,542만원 이하'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313610-7",
+   "name": "SH 방화2-1 영구임대",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "영구임대 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313610",
+   "address": "서울특별시 강서구 방화대로48길 40 (방화동 839)",
+   "district": "강서구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T00:00:00+09:00",
+   "applyEnd": "2026-12-04T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 현장접수 (평일)",
+   "announce": "2027-03-25(목) 16:00",
+   "area": "24·30㎡",
+   "price": "수급자 167만~214만 / 월 3.97~5.09만 · 그 외 501만~639만 / 월 6.68~8.53만",
+   "supply": "예비자 165명",
+   "reserve": true,
+   "dupRule": "1개 단지 1개 평형만 · LH·SH 영구임대 공고를 통틀어 1곳만 — 중복 시 전부 무효",
+   "memo": "수급자·국가유공자·장애인·한부모 등 특정 계층만 · 배점순 선정",
+   "tracks": [
+    {
+     "label": "수급자 등 (생계·의료급여 수급자, 위안부 피해자, 지원대상 한부모가족, 65세 이상 수급권자·차상위 등)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)",
+      "예비입주자 — 기존 대기자 다음 순번, 입주까지 1년 이상 걸릴 수 있음"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 '모집공고일(2026.11.19.) 현재 서울특별시에 거주하는 성년자인 무주택세대구성원'",
+      "공공주택특별법 시행규칙 별표3 제1호 일반공급 1순위 가·다·라·사·자목"
+     ]
+    },
+    {
+     "label": "국가유공자·장애인·북한이탈주민·아동복지시설퇴소자 (소득 70% 이하)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 70,
+     "incomePctSingle": 90,
+     "incomePctByHh": {
+      "1": 90,
+      "2": 80
+     },
+     "assetMax": 245000000,
+     "carMax": 45420000,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 나·마·바·아목 '월평균소득 70% 이하(가구원수 1명 90%, 2명 80%)'",
+      "'총자산 24,500만원 이하 · 개별 자동차가액 4,542만원 이하'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313610-8",
+   "name": "SH 방화6 영구임대",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "영구임대 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313610",
+   "address": "서울특별시 강서구 금낭화로23길 25 (방화동)",
+   "district": "강서구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T00:00:00+09:00",
+   "applyEnd": "2026-12-04T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 현장접수 (평일)",
+   "announce": "2027-03-25(목) 16:00",
+   "area": "24㎡",
+   "price": "수급자 167만 / 월 3.97만 · 그 외 501만 / 월 6.68만",
+   "supply": "예비자 25명",
+   "reserve": true,
+   "dupRule": "1개 단지 1개 평형만 · LH·SH 영구임대 공고를 통틀어 1곳만 — 중복 시 전부 무효",
+   "memo": "수급자·국가유공자·장애인·한부모 등 특정 계층만 · 배점순 선정",
+   "tracks": [
+    {
+     "label": "수급자 등 (생계·의료급여 수급자, 위안부 피해자, 지원대상 한부모가족, 65세 이상 수급권자·차상위 등)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)",
+      "예비입주자 — 기존 대기자 다음 순번, 입주까지 1년 이상 걸릴 수 있음"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 '모집공고일(2026.11.19.) 현재 서울특별시에 거주하는 성년자인 무주택세대구성원'",
+      "공공주택특별법 시행규칙 별표3 제1호 일반공급 1순위 가·다·라·사·자목"
+     ]
+    },
+    {
+     "label": "국가유공자·장애인·북한이탈주민·아동복지시설퇴소자 (소득 70% 이하)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 70,
+     "incomePctSingle": 90,
+     "incomePctByHh": {
+      "1": 90,
+      "2": 80
+     },
+     "assetMax": 245000000,
+     "carMax": 45420000,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 나·마·바·아목 '월평균소득 70% 이하(가구원수 1명 90%, 2명 80%)'",
+      "'총자산 24,500만원 이하 · 개별 자동차가액 4,542만원 이하'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313610-9",
+   "name": "SH 방화11 영구임대",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "영구임대 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313610",
+   "address": "서울특별시 강서구 개화동로21길 4 (방화동)",
+   "district": "강서구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T00:00:00+09:00",
+   "applyEnd": "2026-12-04T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 현장접수 (평일)",
+   "announce": "2027-03-25(목) 16:00",
+   "area": "24㎡",
+   "price": "수급자 169만 / 월 4.03만 · 그 외 509만 / 월 6.78만",
+   "supply": "예비자 110명",
+   "reserve": true,
+   "dupRule": "1개 단지 1개 평형만 · LH·SH 영구임대 공고를 통틀어 1곳만 — 중복 시 전부 무효",
+   "memo": "수급자·국가유공자·장애인·한부모 등 특정 계층만 · 배점순 선정",
+   "tracks": [
+    {
+     "label": "수급자 등 (생계·의료급여 수급자, 위안부 피해자, 지원대상 한부모가족, 65세 이상 수급권자·차상위 등)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)",
+      "예비입주자 — 기존 대기자 다음 순번, 입주까지 1년 이상 걸릴 수 있음"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 '모집공고일(2026.11.19.) 현재 서울특별시에 거주하는 성년자인 무주택세대구성원'",
+      "공공주택특별법 시행규칙 별표3 제1호 일반공급 1순위 가·다·라·사·자목"
+     ]
+    },
+    {
+     "label": "국가유공자·장애인·북한이탈주민·아동복지시설퇴소자 (소득 70% 이하)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 70,
+     "incomePctSingle": 90,
+     "incomePctByHh": {
+      "1": 90,
+      "2": 80
+     },
+     "assetMax": 245000000,
+     "carMax": 45420000,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 나·마·바·아목 '월평균소득 70% 이하(가구원수 1명 90%, 2명 80%)'",
+      "'총자산 24,500만원 이하 · 개별 자동차가액 4,542만원 이하'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313610-10",
+   "name": "SH 월계사슴1 영구임대",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "영구임대 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313610",
+   "address": "서울특별시 노원구 월계로 372 (월계동 321)",
+   "district": "노원구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T00:00:00+09:00",
+   "applyEnd": "2026-12-04T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 현장접수 (평일)",
+   "announce": "2027-03-25(목) 16:00",
+   "area": "24㎡",
+   "price": "수급자 174만 / 월 3.9만 · 그 외 519만 / 월 6.56만",
+   "supply": "예비자 150명",
+   "reserve": true,
+   "dupRule": "1개 단지 1개 평형만 · LH·SH 영구임대 공고를 통틀어 1곳만 — 중복 시 전부 무효",
+   "memo": "수급자·국가유공자·장애인·한부모 등 특정 계층만 · 배점순 선정",
+   "tracks": [
+    {
+     "label": "수급자 등 (생계·의료급여 수급자, 위안부 피해자, 지원대상 한부모가족, 65세 이상 수급권자·차상위 등)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)",
+      "예비입주자 — 기존 대기자 다음 순번, 입주까지 1년 이상 걸릴 수 있음"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 '모집공고일(2026.11.19.) 현재 서울특별시에 거주하는 성년자인 무주택세대구성원'",
+      "공공주택특별법 시행규칙 별표3 제1호 일반공급 1순위 가·다·라·사·자목"
+     ]
+    },
+    {
+     "label": "국가유공자·장애인·북한이탈주민·아동복지시설퇴소자 (소득 70% 이하)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 70,
+     "incomePctSingle": 90,
+     "incomePctByHh": {
+      "1": 90,
+      "2": 80
+     },
+     "assetMax": 245000000,
+     "carMax": 45420000,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 나·마·바·아목 '월평균소득 70% 이하(가구원수 1명 90%, 2명 80%)'",
+      "'총자산 24,500만원 이하 · 개별 자동차가액 4,542만원 이하'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313610-11",
+   "name": "SH 중계3(목련) 영구임대",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "영구임대 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313610",
+   "address": "서울특별시 노원구 노원로 331 (중계동 514-3)",
+   "district": "노원구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T00:00:00+09:00",
+   "applyEnd": "2026-12-04T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 현장접수 (평일)",
+   "announce": "2027-03-25(목) 16:00",
+   "area": "25㎡",
+   "price": "수급자 164만 / 월 4.05만 · 그 외 491만 / 월 6.83만",
+   "supply": "예비자 20명",
+   "reserve": true,
+   "dupRule": "1개 단지 1개 평형만 · LH·SH 영구임대 공고를 통틀어 1곳만 — 중복 시 전부 무효",
+   "memo": "수급자·국가유공자·장애인·한부모 등 특정 계층만 · 배점순 선정",
+   "tracks": [
+    {
+     "label": "수급자 등 (생계·의료급여 수급자, 위안부 피해자, 지원대상 한부모가족, 65세 이상 수급권자·차상위 등)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)",
+      "예비입주자 — 기존 대기자 다음 순번, 입주까지 1년 이상 걸릴 수 있음"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 '모집공고일(2026.11.19.) 현재 서울특별시에 거주하는 성년자인 무주택세대구성원'",
+      "공공주택특별법 시행규칙 별표3 제1호 일반공급 1순위 가·다·라·사·자목"
+     ]
+    },
+    {
+     "label": "국가유공자·장애인·북한이탈주민·아동복지시설퇴소자 (소득 70% 이하)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 70,
+     "incomePctSingle": 90,
+     "incomePctByHh": {
+      "1": 90,
+      "2": 80
+     },
+     "assetMax": 245000000,
+     "carMax": 45420000,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 나·마·바·아목 '월평균소득 70% 이하(가구원수 1명 90%, 2명 80%)'",
+      "'총자산 24,500만원 이하 · 개별 자동차가액 4,542만원 이하'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313610-12",
+   "name": "SH 서초포레스타6 영구임대",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "영구임대 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313610",
+   "address": "서울특별시 서초구 청계산로9길 1-12 (신원동)",
+   "district": "서초구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T00:00:00+09:00",
+   "applyEnd": "2026-12-04T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 현장접수 (평일)",
+   "announce": "2027-03-25(목) 16:00",
+   "area": "39㎡",
+   "price": "수급자 380만 / 월 7.57만 · 그 외 3,557만 / 월 22.96만",
+   "supply": "예비자 10명",
+   "reserve": true,
+   "dupRule": "1개 단지 1개 평형만 · LH·SH 영구임대 공고를 통틀어 1곳만 — 중복 시 전부 무효",
+   "memo": "수급자·국가유공자·장애인·한부모 등 특정 계층만 · 배점순 선정",
+   "tracks": [
+    {
+     "label": "수급자 등 (생계·의료급여 수급자, 위안부 피해자, 지원대상 한부모가족, 65세 이상 수급권자·차상위 등)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)",
+      "예비입주자 — 기존 대기자 다음 순번, 입주까지 1년 이상 걸릴 수 있음"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 '모집공고일(2026.11.19.) 현재 서울특별시에 거주하는 성년자인 무주택세대구성원'",
+      "공공주택특별법 시행규칙 별표3 제1호 일반공급 1순위 가·다·라·사·자목"
+     ]
+    },
+    {
+     "label": "국가유공자·장애인·북한이탈주민·아동복지시설퇴소자 (소득 70% 이하)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 70,
+     "incomePctSingle": 90,
+     "incomePctByHh": {
+      "1": 90,
+      "2": 80
+     },
+     "assetMax": 245000000,
+     "carMax": 45420000,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 나·마·바·아목 '월평균소득 70% 이하(가구원수 1명 90%, 2명 80%)'",
+      "'총자산 24,500만원 이하 · 개별 자동차가액 4,542만원 이하'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313610-13",
+   "name": "SH 면목 영구임대",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "영구임대 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313610",
+   "address": "서울특별시 중랑구 용마산로 228 (면목동 1382)",
+   "district": "중랑구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T00:00:00+09:00",
+   "applyEnd": "2026-12-04T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 현장접수 (평일)",
+   "announce": "2027-03-25(목) 16:00",
+   "area": "25㎡",
+   "price": "수급자 166만 / 월 4.12만 · 그 외 496만 / 월 6.94만",
+   "supply": "예비자 30명",
+   "reserve": true,
+   "dupRule": "1개 단지 1개 평형만 · LH·SH 영구임대 공고를 통틀어 1곳만 — 중복 시 전부 무효",
+   "memo": "수급자·국가유공자·장애인·한부모 등 특정 계층만 · 배점순 선정",
+   "tracks": [
+    {
+     "label": "수급자 등 (생계·의료급여 수급자, 위안부 피해자, 지원대상 한부모가족, 65세 이상 수급권자·차상위 등)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)",
+      "예비입주자 — 기존 대기자 다음 순번, 입주까지 1년 이상 걸릴 수 있음"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 '모집공고일(2026.11.19.) 현재 서울특별시에 거주하는 성년자인 무주택세대구성원'",
+      "공공주택특별법 시행규칙 별표3 제1호 일반공급 1순위 가·다·라·사·자목"
+     ]
+    },
+    {
+     "label": "국가유공자·장애인·북한이탈주민·아동복지시설퇴소자 (소득 70% 이하)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 70,
+     "incomePctSingle": 90,
+     "incomePctByHh": {
+      "1": 90,
+      "2": 80
+     },
+     "assetMax": 245000000,
+     "carMax": 45420000,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 나·마·바·아목 '월평균소득 70% 이하(가구원수 1명 90%, 2명 80%)'",
+      "'총자산 24,500만원 이하 · 개별 자동차가액 4,542만원 이하'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313610-14",
+   "name": "SH 신내10 영구임대",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "영구임대 예비",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313610",
+   "address": "서울특별시 중랑구 신내로 115 (신내동 660)",
+   "district": "중랑구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-30T00:00:00+09:00",
+   "applyEnd": "2026-12-04T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 현장접수 (평일)",
+   "announce": "2027-03-25(목) 16:00",
+   "area": "24㎡",
+   "price": "수급자 184만 / 월 3.85만 · 그 외 551만 / 월 6.47만",
+   "supply": "예비자 110명",
+   "reserve": true,
+   "dupRule": "1개 단지 1개 평형만 · LH·SH 영구임대 공고를 통틀어 1곳만 — 중복 시 전부 무효",
+   "memo": "수급자·국가유공자·장애인·한부모 등 특정 계층만 · 배점순 선정",
+   "tracks": [
+    {
+     "label": "수급자 등 (생계·의료급여 수급자, 위안부 피해자, 지원대상 한부모가족, 65세 이상 수급권자·차상위 등)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)",
+      "예비입주자 — 기존 대기자 다음 순번, 입주까지 1년 이상 걸릴 수 있음"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 '모집공고일(2026.11.19.) 현재 서울특별시에 거주하는 성년자인 무주택세대구성원'",
+      "공공주택특별법 시행규칙 별표3 제1호 일반공급 1순위 가·다·라·사·자목"
+     ]
+    },
+    {
+     "label": "국가유공자·장애인·북한이탈주민·아동복지시설퇴소자 (소득 70% 이하)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 70,
+     "incomePctSingle": 90,
+     "incomePctByHh": {
+      "1": 90,
+      "2": 80
+     },
+     "assetMax": 245000000,
+     "carMax": 45420000,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 거주"
+     },
+     "priority": null,
+     "info": [
+      "거주지 동 주민센터 현장접수만 (인터넷 불가)"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "SH 공고문 나·마·바·아목 '월평균소득 70% 이하(가구원수 1명 90%, 2명 80%)'",
+      "'총자산 24,500만원 이하 · 개별 자동차가액 4,542만원 이하'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313424",
+   "name": "마포 연남동 공동체주택",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "수요자맞춤형 (공동체주택)",
+   "group": [
+    "public"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313424",
+   "address": "서울특별시 마포구 성미산로28길 29 (연남동 255-8)",
+   "district": "마포구",
+   "station": null,
+   "postedOn": "2026-11-18",
+   "applyStart": "2026-11-25T00:00:00+09:00",
+   "applyEnd": "2026-12-04T18:00:00+09:00",
+   "applyNote": "마포구청 이메일 접수 (senstopup@mapo.go.kr) 후 전화 확인 필수",
+   "announce": "2027-02-16(화) 예정",
+   "area": "28.69~52.91㎡",
+   "price": "청년 2,964만~5,040만 / 월 30.55~51.94만 · 신혼 3,603만~8,166만 / 월 37.12~84.14만",
+   "supply": "실제 8호 (신혼부부 6·청년 2)",
+   "reserve": false,
+   "dupRule": null,
+   "memo": "소득 50% 이하/50~70% 구간별 임대료 · 서울주거포털 '마포 연남동 공동체주택'과 같은 공고",
+   "tracks": [
+    {
+     "label": "청년 (서울 거주 만 19~39세)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 70,
+     "incomePctSingle": 90,
+     "incomePctByHh": {
+      "1": 90,
+      "2": 80
+     },
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-18",
+      "allowJob": false,
+      "text": "공고일(11/18) 현재 서울시 거주"
+     },
+     "priority": {
+      "sido": "seoul",
+      "sigungu": "마포구",
+      "includesJob": false,
+      "text": "1순위 마포구민 → 2순위 마포구 외 서울시민 (순위 내 배점순, 1순위가 있으면 2순위는 밀림)"
+     },
+     "info": [
+      "총자산 2.45억·자동차 4,542만 이하 기준은 월평균소득 50% 이하로 신청하는 사람에게만 적용 (공고문 '자산기준(50%이하에 한함)')",
+      "공동체 교육·활동 참여 필수",
+      "청년 임대기간 최장 10년"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '19세 이상 만39세 이하(1986.11.19.~2007.11.18.)인 서울시 거주자'",
+      "'월평균소득 70% 이하' — 표의 1인 3,432,027원(90%)·2인 4,693,016원(80%), 1인 20%·2인 10% 가산",
+      "입주자 선정 '1순위 마포구민 / 2순위 마포구 외 서울시민'"
+     ]
+    },
+    {
+     "label": "청년 (서울 소재 대학생)",
+     "target": "restricted",
+     "restrictedTo": "서울시 소재 대학 재학생 (휴학·입학 예정 포함, 거주지 무관)",
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 70,
+     "incomePctSingle": 90,
+     "incomePctByHh": {
+      "1": 90,
+      "2": 80
+     },
+     "assetMax": null,
+     "carMax": null,
+     "residence": null,
+     "priority": {
+      "sido": "seoul",
+      "sigungu": "마포구",
+      "includesJob": false,
+      "text": "1순위 마포구민 → 2순위 마포구 외 서울시민 (순위 내 배점순, 1순위가 있으면 2순위는 밀림)"
+     },
+     "info": [
+      "총자산 2.45억·자동차 4,542만 이하 기준은 월평균소득 50% 이하로 신청하는 사람에게만 적용 (공고문 '자산기준(50%이하에 한함)')"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '서울시 소재 대학생(거주지 무관, 휴학 중 또는 입학 예정 포함)'",
+      "'월평균소득 70% 이하'(1인 90%·2인 80%)"
+     ]
+    },
+    {
+     "label": "(예비)신혼부부",
+     "target": "newlywed",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": [
+      "engaged",
+      "newlywed"
+     ],
+     "homeless": true,
+     "incomePct": 70,
+     "incomePctSingle": 90,
+     "incomePctByHh": {
+      "1": 90,
+      "2": 80
+     },
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-18",
+      "allowJob": false,
+      "text": "공고일(11/18) 현재 서울특별시 주민등록"
+     },
+     "priority": {
+      "sido": "seoul",
+      "sigungu": "마포구",
+      "includesJob": false,
+      "text": "1순위 마포구민 → 2순위 마포구 외 서울시민 (순위 내 배점순, 1순위가 있으면 2순위는 밀림)"
+     },
+     "info": [
+      "총자산 2.45억·자동차 4,542만 이하 기준은 월평균소득 50% 이하로 신청하는 사람에게만 적용 (공고문 '자산기준(50%이하에 한함)')",
+      "예비신혼부부는 입주일 전까지 혼인신고",
+      "신혼부부 임대기간 최장 20년"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '공고일(2026.11.18.) 현재 서울특별시에 주민등록 등재된 무주택세대구성원 … 혼인 7년(2019.11.19.~) 이내 또는 예비신혼부부'",
+      "'월평균소득 70% 이하' (2인 4,693,016원=80%)",
+      "입주자 선정 '1순위 마포구민 / 2순위 마포구 외 서울시민'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313227-1",
+   "name": "금천 보린주택(1호) 홀몸어르신 주택",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "수요자맞춤형 홀몸어르신",
+   "group": [
+    "public"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313227",
+   "address": "서울특별시 금천구 독산로47가길 38 (독산2동)",
+   "district": "금천구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-24T00:00:00+09:00",
+   "applyEnd": "2026-12-07T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 방문 접수",
+   "announce": "2026-12-23(수) 예정",
+   "area": "14.44~16.06㎡",
+   "price": "1,026만~1,201만 / 월 5.73~6.7만",
+   "supply": "실제 2호 (201·302호)",
+   "reserve": false,
+   "dupRule": null,
+   "memo": "만 65세 이상 기초생계·의료·주거급여 수급자 1인 가구만",
+   "tracks": [
+    {
+     "label": "홀몸어르신 (만 65세 이상 수급자 1인 가구)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": [
+      65,
+      120
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": "금천구",
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 금천구에 2년 이상 거주"
+     },
+     "priority": null,
+     "info": [
+      "신청 시 금천치매안심센터에서 치매 검사 필수",
+      "선정 순서: 생계·의료급여 수급자 → 지하·반지하 거주자 → 금천구 전입일 → 고령자"
+     ],
+     "needsCheck": [
+      "금천구 2년 이상 거주",
+      "1인 가구로 독립 생활 가능 (주민등록상 분리된 배우자가 있으면 불가)"
+     ],
+     "evidence": [
+      "공고문 '공고일(2026.11.19.) 현재 금천구에 2년 이상 거주하는 만 65세 이상 무주택 세대주'",
+      "'기초생계·의료·주거급여 수급자' · '1인 가구로서 독립된 주거 생활이 가능한 자'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313227-2",
+   "name": "금천 보린두레(2호) 홀몸어르신 주택",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "수요자맞춤형 홀몸어르신",
+   "group": [
+    "public"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313227",
+   "address": "서울특별시 금천구 시흥대로24길 50 (시흥3동)",
+   "district": "금천구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-24T00:00:00+09:00",
+   "applyEnd": "2026-12-07T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 방문 접수",
+   "announce": "2026-12-23(수) 예정",
+   "area": "15.36㎡",
+   "price": "1,255만 / 월 10.47만",
+   "supply": "실제 2호 (304호 여성·404호 남성)",
+   "reserve": false,
+   "dupRule": null,
+   "memo": "만 65세 이상 기초생계·의료·주거급여 수급자 1인 가구만",
+   "tracks": [
+    {
+     "label": "홀몸어르신 (만 65세 이상 수급자 1인 가구)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": [
+      65,
+      120
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": "금천구",
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 금천구에 2년 이상 거주"
+     },
+     "priority": null,
+     "info": [
+      "신청 시 금천치매안심센터에서 치매 검사 필수",
+      "선정 순서: 생계·의료급여 수급자 → 지하·반지하 거주자 → 금천구 전입일 → 고령자"
+     ],
+     "needsCheck": [
+      "금천구 2년 이상 거주",
+      "1인 가구로 독립 생활 가능 (주민등록상 분리된 배우자가 있으면 불가)"
+     ],
+     "evidence": [
+      "공고문 '공고일(2026.11.19.) 현재 금천구에 2년 이상 거주하는 만 65세 이상 무주택 세대주'",
+      "'기초생계·의료·주거급여 수급자' · '1인 가구로서 독립된 주거 생활이 가능한 자'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313227-3",
+   "name": "금천 보린햇살(3호) 홀몸어르신 주택",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "수요자맞춤형 홀몸어르신",
+   "group": [
+    "public"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313227",
+   "address": "서울특별시 금천구 독산로56길 18-10 (독산2동)",
+   "district": "금천구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-24T00:00:00+09:00",
+   "applyEnd": "2026-12-07T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 방문 접수",
+   "announce": "2026-12-23(수) 예정",
+   "area": "28.86㎡",
+   "price": "1,312만 / 월 17.09만",
+   "supply": "실제 1호 (503호)",
+   "reserve": false,
+   "dupRule": null,
+   "memo": "만 65세 이상 기초생계·의료·주거급여 수급자 1인 가구만",
+   "tracks": [
+    {
+     "label": "홀몸어르신 (만 65세 이상 수급자 1인 가구)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": [
+      65,
+      120
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": "금천구",
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 금천구에 2년 이상 거주"
+     },
+     "priority": null,
+     "info": [
+      "신청 시 금천치매안심센터에서 치매 검사 필수",
+      "선정 순서: 생계·의료급여 수급자 → 지하·반지하 거주자 → 금천구 전입일 → 고령자"
+     ],
+     "needsCheck": [
+      "금천구 2년 이상 거주",
+      "1인 가구로 독립 생활 가능 (주민등록상 분리된 배우자가 있으면 불가)"
+     ],
+     "evidence": [
+      "공고문 '공고일(2026.11.19.) 현재 금천구에 2년 이상 거주하는 만 65세 이상 무주택 세대주'",
+      "'기초생계·의료·주거급여 수급자' · '1인 가구로서 독립된 주거 생활이 가능한 자'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313227-4",
+   "name": "금천 보린희망(5호) 홀몸어르신 주택",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "수요자맞춤형 홀몸어르신",
+   "group": [
+    "public"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313227",
+   "address": "서울특별시 금천구 시흥대로149가길 32/30 (가산동)",
+   "district": "금천구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-24T00:00:00+09:00",
+   "applyEnd": "2026-12-07T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 방문 접수",
+   "announce": "2026-12-23(수) 예정",
+   "area": "25.06㎡",
+   "price": "1,119만 / 월 14.56만",
+   "supply": "실제 1호 (501호)",
+   "reserve": false,
+   "dupRule": null,
+   "memo": "만 65세 이상 기초생계·의료·주거급여 수급자 1인 가구만",
+   "tracks": [
+    {
+     "label": "홀몸어르신 (만 65세 이상 수급자 1인 가구)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": [
+      65,
+      120
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": "금천구",
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 금천구에 2년 이상 거주"
+     },
+     "priority": null,
+     "info": [
+      "신청 시 금천치매안심센터에서 치매 검사 필수",
+      "선정 순서: 생계·의료급여 수급자 → 지하·반지하 거주자 → 금천구 전입일 → 고령자"
+     ],
+     "needsCheck": [
+      "금천구 2년 이상 거주",
+      "1인 가구로 독립 생활 가능 (주민등록상 분리된 배우자가 있으면 불가)"
+     ],
+     "evidence": [
+      "공고문 '공고일(2026.11.19.) 현재 금천구에 2년 이상 거주하는 만 65세 이상 무주택 세대주'",
+      "'기초생계·의료·주거급여 수급자' · '1인 가구로서 독립된 주거 생활이 가능한 자'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313227-5",
+   "name": "금천 보린행복(6호) 홀몸어르신 주택",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "수요자맞춤형 홀몸어르신",
+   "group": [
+    "public"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313227",
+   "address": "서울특별시 금천구 독산로27길 44 (시흥1동)",
+   "district": "금천구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-24T00:00:00+09:00",
+   "applyEnd": "2026-12-07T23:59:00+09:00",
+   "applyNote": "거주지 동 주민센터 방문 접수",
+   "announce": "2026-12-23(수) 예정",
+   "area": "24.15㎡",
+   "price": "1,393만 / 월 18.15만",
+   "supply": "실제 1호 (501호)",
+   "reserve": false,
+   "dupRule": null,
+   "memo": "만 65세 이상 기초생계·의료·주거급여 수급자 1인 가구만",
+   "tracks": [
+    {
+     "label": "홀몸어르신 (만 65세 이상 수급자 1인 가구)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": [
+      65,
+      120
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": "금천구",
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 금천구에 2년 이상 거주"
+     },
+     "priority": null,
+     "info": [
+      "신청 시 금천치매안심센터에서 치매 검사 필수",
+      "선정 순서: 생계·의료급여 수급자 → 지하·반지하 거주자 → 금천구 전입일 → 고령자"
+     ],
+     "needsCheck": [
+      "금천구 2년 이상 거주",
+      "1인 가구로 독립 생활 가능 (주민등록상 분리된 배우자가 있으면 불가)"
+     ],
+     "evidence": [
+      "공고문 '공고일(2026.11.19.) 현재 금천구에 2년 이상 거주하는 만 65세 이상 무주택 세대주'",
+      "'기초생계·의료·주거급여 수급자' · '1인 가구로서 독립된 주거 생활이 가능한 자'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313225-1",
+   "name": "금천 소셜믹스형주택 (신혼부부)",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "수요자맞춤형 신혼부부",
+   "group": [
+    "public"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313225",
+   "address": "서울특별시 금천구 시흥대로153길 57 나동 (가산동)",
+   "district": "금천구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-24T00:00:00+09:00",
+   "applyEnd": "2026-12-07T18:00:00+09:00",
+   "applyNote": "금천구청 이메일·방문·등기우편 접수",
+   "announce": "2027-02-19(금) 예정",
+   "area": "38.07㎡",
+   "price": "1,747만 / 월 22.76만 (소득 50% 이하) · 2,912만 / 월 37.93만",
+   "supply": "실제 1호 (나동 201호)",
+   "reserve": false,
+   "dupRule": "동일 세대 또는 예비배우자가 중복 신청하면 전부 무효",
+   "memo": "(예비)신혼부부 · 소득 50% 이하 1순위, 100% 이하 2순위",
+   "tracks": [
+    {
+     "label": "(예비)신혼부부 (혼인 7년 이내)",
+     "target": "newlywed",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": [
+      "engaged",
+      "newlywed"
+     ],
+     "homeless": true,
+     "incomePct": 100,
+     "incomePctSingle": null,
+     "incomePctByHh": {
+      "2": 110
+     },
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 주민등록"
+     },
+     "priority": null,
+     "info": [
+      "1순위(월평균소득 50% 이하)는 총자산 2.45억·자동차 4,542만 이하, 2순위(100% 이하)는 자산 기준 미적용",
+      "선정 순서: 소득 낮은 순 → 금천구 거주기간 → 미성년 자녀 수 → 혼인기간 짧은 순 → 서울 거주기간",
+      "예비신혼부부는 입주일 전일까지 혼인신고"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '모집 공고일(26.11.19.) 현재 서울특별시에 주민등록등재된 무주택세대구성원으로 혼인 7년 이내 (예비)신혼부부'",
+      "'1순위 월평균소득 50% 이하 및 자산기준 / 2순위 100% 이하(자산 기준 미적용)', 2인 가구 10% 가산"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313225-2",
+   "name": "금천 도담도담주택 (신혼부부)",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "수요자맞춤형 신혼부부",
+   "group": [
+    "public"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313225",
+   "address": "서울특별시 금천구 시흥대로45길 14 (시흥1동)",
+   "district": "금천구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-11-24T00:00:00+09:00",
+   "applyEnd": "2026-12-07T18:00:00+09:00",
+   "applyNote": "금천구청 이메일·방문·등기우편 접수",
+   "announce": "2027-02-19(금) 예정",
+   "area": "32.94~45.30㎡",
+   "price": "1,271만~1,652만 / 월 16.56~21.51만 (소득 50% 이하) · 2,119만~2,753만 / 월 27.6~35.86만",
+   "supply": "실제 12호 (101~103동, 승강기 없음)",
+   "reserve": false,
+   "dupRule": "동일 세대 또는 예비배우자가 중복 신청하면 전부 무효",
+   "memo": "(예비)신혼부부 · 소득 50% 이하 1순위, 100% 이하 2순위",
+   "tracks": [
+    {
+     "label": "(예비)신혼부부 (혼인 7년 이내)",
+     "target": "newlywed",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": [
+      "engaged",
+      "newlywed"
+     ],
+     "homeless": true,
+     "incomePct": 100,
+     "incomePctSingle": null,
+     "incomePctByHh": {
+      "2": 110
+     },
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": null,
+      "date": "2026-11-19",
+      "allowJob": false,
+      "text": "공고일(11/19) 현재 서울특별시 주민등록"
+     },
+     "priority": null,
+     "info": [
+      "1순위(월평균소득 50% 이하)는 총자산 2.45억·자동차 4,542만 이하, 2순위(100% 이하)는 자산 기준 미적용",
+      "선정 순서: 소득 낮은 순 → 금천구 거주기간 → 미성년 자녀 수 → 혼인기간 짧은 순 → 서울 거주기간",
+      "예비신혼부부는 입주일 전일까지 혼인신고"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '모집 공고일(26.11.19.) 현재 서울특별시에 주민등록등재된 무주택세대구성원으로 혼인 7년 이내 (예비)신혼부부'",
+      "'1순위 월평균소득 50% 이하 및 자산기준 / 2순위 100% 이하(자산 기준 미적용)', 2인 가구 10% 가산"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313268-1",
+   "name": "동작 대방동 미소주택 (홀몸어르신)",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "수요자맞춤형 홀몸어르신",
+   "group": [
+    "public"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313268",
+   "address": "서울특별시 동작구 여의대방로24길 113",
+   "district": "동작구",
+   "station": null,
+   "postedOn": "2026-11-16",
+   "applyStart": "2026-11-23T09:00:00+09:00",
+   "applyEnd": "2026-12-04T18:00:00+09:00",
+   "applyNote": "주민등록 거주지 관할 동 주민센터 방문 신청",
+   "announce": "2027-01-18(월) 17:00 이후",
+   "area": "25.85㎡",
+   "price": "2,394만 / 월 12.3만",
+   "supply": "실제 1호 (401호)",
+   "reserve": false,
+   "dupRule": null,
+   "memo": "만 65세 이상 수급자·차상위 1인 가구만",
+   "tracks": [
+    {
+     "label": "홀몸어르신 (만 65세 이상 수급자·차상위 1인 가구)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": [
+      65,
+      120
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": "동작구",
+      "date": "2026-11-16",
+      "allowJob": false,
+      "text": "공고일(11/16) 현재 동작구 주민등록"
+     },
+     "priority": null,
+     "info": [
+      "공동체주택 의무사항 이행 동의 필요"
+     ],
+     "needsCheck": [
+      "무주택 단독세대주(1인 가구)로 독립 생활 가능 (주민등록상 분리된 배우자가 있으면 불가)"
+     ],
+     "evidence": [
+      "공고문(스캔본) '입주자 모집공고일 현재 동작구에 주민등록이 등재된 만 65세 이상(1961.11.16. 이전 출생) 무주택 단독세대주(1인가구)'",
+      "'수급자 또는 차상위계층' · '독립생활 가능자' · '공동체주택 의무사항 이행 동의자'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313268-2",
+   "name": "동작 사당4동 미소주택 (홀몸어르신)",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "수요자맞춤형 홀몸어르신",
+   "group": [
+    "public"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313268",
+   "address": "서울특별시 동작구 사당로20나길 58-6",
+   "district": "동작구",
+   "station": null,
+   "postedOn": "2026-11-16",
+   "applyStart": "2026-11-23T09:00:00+09:00",
+   "applyEnd": "2026-12-04T18:00:00+09:00",
+   "applyNote": "주민등록 거주지 관할 동 주민센터 방문 신청",
+   "announce": "2027-01-18(월) 17:00 이후",
+   "area": "26.78㎡",
+   "price": "2,539만 / 월 26.16만",
+   "supply": "실제 2호 (305·401호)",
+   "reserve": false,
+   "dupRule": null,
+   "memo": "만 65세 이상 수급자·차상위 1인 가구만",
+   "tracks": [
+    {
+     "label": "홀몸어르신 (만 65세 이상 수급자·차상위 1인 가구)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": [
+      65,
+      120
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": "동작구",
+      "date": "2026-11-16",
+      "allowJob": false,
+      "text": "공고일(11/16) 현재 동작구 주민등록"
+     },
+     "priority": null,
+     "info": [
+      "공동체주택 의무사항 이행 동의 필요"
+     ],
+     "needsCheck": [
+      "무주택 단독세대주(1인 가구)로 독립 생활 가능 (주민등록상 분리된 배우자가 있으면 불가)"
+     ],
+     "evidence": [
+      "공고문(스캔본) '입주자 모집공고일 현재 동작구에 주민등록이 등재된 만 65세 이상(1961.11.16. 이전 출생) 무주택 단독세대주(1인가구)'",
+      "'수급자 또는 차상위계층' · '독립생활 가능자' · '공동체주택 의무사항 이행 동의자'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "sh-313268-3",
+   "name": "동작 상도4동 미소주택 (홀몸어르신)",
+   "region": "seoul",
+   "source": "sh",
+   "kind": "수요자맞춤형 홀몸어르신",
+   "group": [
+    "public"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313268",
+   "address": "서울특별시 동작구 성대로14길 77",
+   "district": "동작구",
+   "station": null,
+   "postedOn": "2026-11-16",
+   "applyStart": "2026-11-23T09:00:00+09:00",
+   "applyEnd": "2026-12-04T18:00:00+09:00",
+   "applyNote": "주민등록 거주지 관할 동 주민센터 방문 신청",
+   "announce": "2027-01-18(월) 17:00 이후",
+   "area": "26.45~29.70㎡",
+   "price": "1,149만~1,255만 / 월 14.97~16.34만",
+   "supply": "실제 4호",
+   "reserve": false,
+   "dupRule": null,
+   "memo": "만 65세 이상 수급자·차상위 1인 가구만",
+   "tracks": [
+    {
+     "label": "홀몸어르신 (만 65세 이상 수급자·차상위 1인 가구)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": [
+      65,
+      120
+     ],
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": {
+      "sido": "seoul",
+      "sigungu": "동작구",
+      "date": "2026-11-16",
+      "allowJob": false,
+      "text": "공고일(11/16) 현재 동작구 주민등록"
+     },
+     "priority": null,
+     "info": [
+      "공동체주택 의무사항 이행 동의 필요"
+     ],
+     "needsCheck": [
+      "무주택 단독세대주(1인 가구)로 독립 생활 가능 (주민등록상 분리된 배우자가 있으면 불가)"
+     ],
+     "evidence": [
+      "공고문(스캔본) '입주자 모집공고일 현재 동작구에 주민등록이 등재된 만 65세 이상(1961.11.16. 이전 출생) 무주택 단독세대주(1인가구)'",
+      "'수급자 또는 차상위계층' · '독립생활 가능자' · '공동체주택 의무사항 이행 동의자'"
+     ]
+    }
+   ],
+   "commute": {}
+  },
+  {
+   "id": "social-313503",
+   "name": "에어스페이스 신림3호점",
+   "region": "seoul",
+   "source": "social",
+   "kind": "사회주택",
+   "group": [
+    "social"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313503",
+   "address": "서울특별시 관악구 신림로7길 25 (신림동 234-3)",
+   "district": "관악구",
+   "station": "서울대입구역",
+   "postedOn": "2026-11-20",
+   "applyStart": "2026-11-20T00:00:00+09:00",
+   "applyEnd": "2026-12-20T23:59:00+09:00",
+   "applyNote": "상시·선착순 — 운영사(어울리) 현장방문 예약 후 이메일 신청, 12/20까지 게시(조기 마감 가능)",
+   "announce": "개별 연락",
+   "area": "35.16㎡ (15.0평)",
+   "price": "1억 5,210만 / 월 50.6만 (보증금 50% 기준)",
+   "supply": "실제 1호 (202호, 1~2인 가구)",
+   "reserve": false,
+   "dupRule": null,
+   "memo": "202호 즉시 입주 · 보증금 비율 40~70% 조정 가능 · 서울 직장·학교 또는 입주 후 전입 예정이면 신청 가능",
+   "tracks": [
+    {
+     "label": "청년 (원룸 202호, 1~2인 가구)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 120,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": 251000000,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": null,
+     "info": [
+      "서울 비거주자는 입주 후 2주 이내 전입신고 조건으로 신청 가능, 서울 외 거주자는 서울 소재 학교 재학·직장 재직으로도 신청 가능(증빙)",
+      "공고문에 청년 연령 범위가 따로 적혀 있지 않음",
+      "서류심사 후 면접 심사 · 관리비 월 6만원 별도"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '무주택자로 전년도 도시근로자 가구원수별 월평균소득 120% 이하' (1인 4,576,000원)",
+      "'자산기준 청년 2억 5,100만원 이하' · '자동차가액 4,542만원 이하'",
+      "'서울시에서 거주하고 있는 청년(서울 비거주자의 경우, 입주 후 2주 이내 전입신고 조건으로 신청 가능)'"
+     ]
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 44,
+     "pm": 44,
+     "tr": 1,
+     "walk": 13,
+     "path": "도보 3분 → <b>버스 5528</b> 10분 → 도보 4분 → <b>2호선</b> 서울대입구→선릉 18분 → 도보 6분"
+    }
+   }
+  },
+  {
+   "id": "social-313509",
+   "name": "에어스페이스 신림4호점",
+   "region": "seoul",
+   "source": "social",
+   "kind": "사회주택",
+   "group": [
+    "social"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313509",
+   "address": "서울특별시 관악구 신림로23길 96 (신림동 1560-17)",
+   "district": "관악구",
+   "station": "서울대벤처타운역",
+   "postedOn": "2026-11-20",
+   "applyStart": "2026-11-20T00:00:00+09:00",
+   "applyEnd": "2026-12-20T23:59:00+09:00",
+   "applyNote": "상시·선착순 — 운영사(어울리) 현장방문 예약 후 이메일 신청, 12/20까지 게시(조기 마감 가능)",
+   "announce": "개별 연락",
+   "area": "23.55㎡ (9.9평)",
+   "price": "1억 2,151만 / 월 26.3만 (보증금 60% 기준)",
+   "supply": "실제 1호 (303호, 1인 가구)",
+   "reserve": false,
+   "dupRule": null,
+   "memo": "303호 원룸 · 2027년 2월 중순 입주 · 입주 후 서울 전입 예정이면 신청 가능",
+   "tracks": [
+    {
+     "label": "1인 가구 (원룸 303호)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 120,
+     "incomePctSingle": null,
+     "incomePctByHh": null,
+     "assetMax": 345000000,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": null,
+     "info": [
+      "서울 비거주자는 입주 후 2주 이내 전입신고 조건으로 신청 가능",
+      "모집개요는 '청년 1인가구', 신청자격은 '신혼부부 및 1인 가구' — 연령 범위 명시 없음",
+      "자산 기준표에서 1인가구는 신혼부부와 같은 칸(3억 4,500만), 청년 칸은 2억 5,100만 — 운영사(02-882-2121) 확인 권장",
+      "보증금 비율 협의 조정 가능 · 서류심사 후 면접"
+     ],
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '무주택자로 전년도 도시근로자 가구원수별 월평균소득 120% 이하' (1인 4,576,000원)",
+      "'자산기준 청년 2억 5,100만 / 신혼부부·1인가구 3억 4,500만' · '자동차가액 4,542만원 이하'",
+      "'서울시에서 거주하고 있는 신혼부부 및 1인 가구 (서울 비거주자는 입주 후 2주 이내 전입신고 조건으로 신청 가능)'"
+     ]
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 49,
+     "pm": 51,
+     "tr": 1,
+     "walk": 21,
+     "path": "도보 10분 → <b>신림선</b> 서울대벤처타운→신림 3분 → 환승 5분 → <b>2호선</b> 신림→선릉 21분 → 도보 6분"
+    }
+   }
+  },
+  {
+   "id": "lh-2015122300021117",
+   "name": "학익 SK VIEW",
+   "region": "incheon",
+   "source": "lh",
+   "kind": "국민임대 (철거민 우선공급)",
+   "group": [
+    "public"
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021117&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "address": "인천광역시 미추홀구 학익동 757",
+   "district": "미추홀구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-12-01T10:00:00+09:00",
+   "applyEnd": "2026-12-03T16:00:00+09:00",
+   "applyNote": "현장접수만 (LH인천지역본부 4층 주거복지통합민원실, 12~13시 제외). 인터넷·모바일 불가",
+   "announce": "'27.1/13(수) 17:00 이후",
+   "area": "38형 (전용 38.99㎡)",
+   "price": "2,692만 / 월 23.0만",
+   "supply": "실제 80호",
+   "reserve": false,
+   "dupRule": "1세대 1주택 신청, 중복 신청 시 전부 무효",
+   "memo": "조합이 선정해 LH에 통보한 학익1구역 철거민·세입자만 신청 가능 (일반 신청 불가). 잔여세대는 추후 행복주택으로 공급 예정",
+   "tracks": [
+    {
+     "label": "당해 사업지구 철거민·세입자",
+     "target": "restricted",
+     "restrictedTo": "학익1구역 주택재개발사업지구 철거민·세입자 중 조합이 우선공급대상자로 선정해 LH에 통보한 사람",
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": null,
+     "priority": null,
+     "needsCheck": [
+      "조합이 우선공급대상자로 선정해 LH에 통보한 철거민·세입자인지"
+     ],
+     "evidence": [
+      "공고문 '조합이 우선공급 대상자로 선정하여 통보한 당해 사업지구 철거민·세입자만을 대상으로 공급… 일반 신청자는 신청 불가능'",
+      "공고문 '입주자 모집공고일(2026.11.19.) 현재 무주택세대구성원인 자'",
+      "공고문에 소득·자산 기준은 입주 자격으로 적혀 있지 않음 (갱신계약 시 할증만 언급)"
+     ]
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 104,
+     "pm": 99,
+     "tr": 1,
+     "walk": 12,
+     "path": "도보 2분 → <b>9200</b> 학익시장→서초역 82분 → 도보 4분 → <b>2호선</b> 서초역→선릉역 7분 → 도보 6분"
+    }
+   }
+  },
+  {
+   "id": "lh-2015122300021121",
+   "name": "인천논현 LH16단지 창업지원주택",
+   "region": "incheon",
+   "source": "lh",
+   "kind": "창업지원주택 (행복주택)",
+   "group": [
+    "public"
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021121&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+   "address": "인천광역시 남동구 은봉로 297",
+   "district": "남동구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-12-02T10:00:00+09:00",
+   "applyEnd": "2026-12-02T15:00:00+09:00",
+   "applyNote": "현장 선착순 동호지정·계약 (LH 인천지역본부 별관 1층, 15:00 전 도착, 계약금 60만원 입금). 샘플하우스 11/28(토) 10~16시",
+   "announce": "선계약 후검증, '27.3~4월 적격자 개별 입주안내",
+   "area": "25.77㎡ (25A·25B) / 44.51㎡ (44A)",
+   "price": "3,492만 / 월 16.3만 (25형), 6,048만 / 월 28.2만 (44형)",
+   "supply": "실제 55호 (25A 49·25B 주거약자 5·44A 1)",
+   "reserve": false,
+   "dupRule": "1세대 1주택 신청, 중복 신청 시 전부 무효",
+   "memo": "남동구청 창업인 추천(유흥·사행성 외 전 업종, 주소지·사업장 소재지 제한 없음)과 청년 행복주택 자격을 모두 갖춰야 함. 25B는 주거약자(장애인 등)만",
+   "tracks": [
+    {
+     "label": "청년 창업인·예비창업인",
+     "target": "restricted",
+     "restrictedTo": "남동구청장이 인정한 창업자·예비창업자 (유흥업·사행성 업종 제외, 주소지·사업장 소재지 제한 없음)",
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": "2026-11-19",
+     "marital": null,
+     "homeless": true,
+     "incomePct": 100,
+     "incomePctSingle": 120,
+     "assetMax": 345000000,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": null,
+     "needsCheck": [
+      "남동구청의 창업인(예비창업인) 추천을 받을 수 있는지",
+      "소득 가산: 맞벌이 부부 120%(2인 130%)까지 인정"
+     ],
+     "evidence": [
+      "공고문 '①만 19세 이상 만 39세 이하인 청년 (출생일 1986.11.20.~2007.11.19.)'",
+      "공고문 '월평균소득이 … 100% 이하, 맞벌이 부부는 120% 이하… 1인인 경우 120%, 2인인 경우 110%'",
+      "공고문 '총 자산가액 합산기준 34,500만원 이하, 자동차가액이 4,542만원 이하'"
+     ],
+     "info": [
+      "입주 전까지 본인 또는 배우자의 주택청약종합저축 가입 증명"
+     ],
+     "incomePctByHh": {
+      "1": 120,
+      "2": 110
+     }
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 94,
+     "pm": 93,
+     "tr": 1,
+     "walk": 18,
+     "path": "도보 7분 → <b>M6461</b> 논현2동행정복지센터→사당역 59분 → 도보 5분 → <b>2호선</b> 사당역→선릉역 12분 → 도보 6분"
+    }
+   }
+  },
+  {
+   "region": "incheon",
+   "source": "lh",
+   "kind": "행복주택 예비 (자격완화)",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021099&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+   "district": "남동구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-12-01T10:00:00+09:00",
+   "applyEnd": "2026-12-03T16:00:00+09:00",
+   "applyNote": "LH청약플러스 인터넷·모바일 (현장접수는 12/1~2 고령자 등 인터넷이 어려운 분만)",
+   "announce": "서류제출대상자 12/7(월) 14:00, 예비입주자 '27.3/11(목) 14:00",
+   "reserve": true,
+   "dupRule": "1세대 1주택 신청 (공고 내 3개 단지 통틀어), 중복 신청 시 전부 무효",
+   "id": "lh-2015122300021099-1",
+   "name": "인천논현 4단지 행복주택",
+   "address": "인천광역시 남동구 논현로 81",
+   "area": "16.65㎡ (16B) / 26.71㎡ (26A)",
+   "price": "2,014만 / 월 9.4만 (16B 고령자), 2,520만 / 월 11.8만 (26A 주거급여)",
+   "supply": "예비자 20명 (16B 고령자 10·26A 주거급여수급자 10)",
+   "memo": "고령자(16B)·주거급여수급자(26A) 물량만 모집. 예비입주자라 실제 입주까지 1년 이상 걸릴 수 있음",
+   "tracks": [
+    {
+     "label": "고령자 (16B)",
+     "target": "restricted",
+     "restrictedTo": "만 65세 이상 고령자 (1961.11.19. 이전 출생)",
+     "age": [
+      65,
+      120
+     ],
+     "ageDate": "2026-11-19",
+     "marital": null,
+     "homeless": true,
+     "incomePct": 150,
+     "incomePctSingle": 150,
+     "assetMax": 345000000,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": null,
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '무주택세대구성원으로서 아래의 요건을 모두 갖춘 65세 이상인 자'",
+      "공고문 완화 순위: 1순위 일반자격(1인 120%·2인 110%·3인 이상 100%), 2순위 1인 140%·2인 130%·3인 이상 120%, 3순위 전 가구 150% 이하",
+      "공고문 '총 자산가액 합산기준 34,500만원 이하이고 … 자동차가액이 4,542만원 이하'"
+     ]
+    },
+    {
+     "label": "주거급여수급자 (26A)",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": null,
+     "incomePctSingle": null,
+     "assetMax": null,
+     "carMax": null,
+     "residence": null,
+     "priority": null,
+     "needsCheck": [
+      "「주거급여법」상 주거급여 수급권자 또는 수급자인지"
+     ],
+     "evidence": [
+      "공고문 '입주자모집공고일(2026.11.19.) 현재 무주택세대구성원인 주거급여수급자'",
+      "공고문 '경쟁 시 입주자 선정기준 : 추첨'"
+     ]
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 93,
+     "pm": 91,
+     "tr": 1,
+     "walk": 20,
+     "path": "도보 9분 → <b>M6461</b> 논현3단지하늘마을→사당역 57분 → 도보 5분 → <b>2호선</b> 사당역→선릉역 12분 → 도보 6분"
+    }
+   }
+  },
+  {
+   "region": "incheon",
+   "source": "lh",
+   "kind": "행복주택 예비 (자격완화)",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021099&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+   "district": "남동구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-12-01T10:00:00+09:00",
+   "applyEnd": "2026-12-03T16:00:00+09:00",
+   "applyNote": "LH청약플러스 인터넷·모바일 (현장접수는 12/1~2 고령자 등 인터넷이 어려운 분만)",
+   "announce": "서류제출대상자 12/7(월) 14:00, 예비입주자 '27.3/11(목) 14:00",
+   "reserve": true,
+   "dupRule": "1세대 1주택 신청 (공고 내 3개 단지 통틀어), 중복 신청 시 전부 무효",
+   "id": "lh-2015122300021099-2",
+   "name": "인천논현 15단지 행복주택",
+   "address": "인천광역시 남동구 함박뫼로 456",
+   "area": "36.76㎡ (36A)",
+   "price": "4,360만 / 월 20.3만",
+   "supply": "예비자 20명 (36A 신혼부부·한부모)",
+   "memo": "신혼부부·한부모가족 물량만 모집. 예비입주자라 실제 입주까지 1년 이상 걸릴 수 있음",
+   "tracks": [
+    {
+     "label": "신혼부부",
+     "target": "newlywed",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": [
+      "newlywed",
+      "married"
+     ],
+     "homeless": true,
+     "incomePct": 150,
+     "incomePctSingle": 150,
+     "assetMax": 345000000,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": {
+      "areas": [
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "시흥시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       }
+      ],
+      "includesJob": true,
+      "text": "인천광역시 또는 연접지역(서울·부천·시흥·김포)이 거주지나 소득근거지면 1순위, 그 밖의 경기도 2순위, 그 외 3순위"
+     },
+     "needsCheck": [
+      "혼인 10년 이내 또는 9세 이하 자녀 (7년 이내·6세 이하면 1순위 일반자격)"
+     ],
+     "evidence": [
+      "공고문 '② 혼인기간이 7년 이내(【완화조건】 10년 이내(2순위,3순위))일 것 또는 6세이하 자녀를 둔 자'",
+      "공고문 소득: 일반 100%(2인 110%, 맞벌이 120%·2인 130%), 완화 2순위 120%(2인 130%), 3순위 150%",
+      "공고문 '총 자산가액 합산기준 34,500만원 이하이고 … 자동차가액이 4,542만원 이하'"
+     ],
+     "info": [
+      "입주 전까지 본인 또는 배우자의 주택청약종합저축 가입 증명"
+     ]
+    },
+    {
+     "label": "예비신혼부부",
+     "target": "newlywed",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": [
+      "engaged"
+     ],
+     "homeless": true,
+     "incomePct": 150,
+     "incomePctSingle": 150,
+     "assetMax": 345000000,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": {
+      "areas": [
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "시흥시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       }
+      ],
+      "includesJob": true,
+      "text": "인천광역시 또는 연접지역(서울·부천·시흥·김포)이 거주지나 소득근거지면 1순위, 그 밖의 경기도 2순위, 그 외 3순위"
+     },
+     "needsCheck": [
+      "혼인으로 구성될 세대 전원 무주택"
+     ],
+     "evidence": [
+      "공고문 '(예비신혼부부) 혼인을 계획 중이며 입주 전까지 혼인사실을 증명할 수 있을 것'",
+      "공고문 소득: 혼인으로 구성될 세대 기준 일반 100%(2인 110%), 3순위 완화 150%"
+     ],
+     "info": [
+      "입주 전까지 본인 또는 예비배우자의 주택청약종합저축 가입 증명",
+      "입주 전까지 혼인사실 증명"
+     ]
+    },
+    {
+     "label": "한부모가족",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 150,
+     "incomePctSingle": 150,
+     "assetMax": 345000000,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": {
+      "areas": [
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "시흥시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       }
+      ],
+      "includesJob": true,
+      "text": "인천광역시 또는 연접지역(서울·부천·시흥·김포)이 거주지나 소득근거지면 1순위, 그 밖의 경기도 2순위, 그 외 3순위"
+     },
+     "needsCheck": [
+      "9세 이하 자녀를 둔 한부모 (6세 이하면 1순위 일반자격)"
+     ],
+     "evidence": [
+      "공고문 '(한부모가족) 6세이하 (【완화조건】 9세 이하(2순위,3순위)) 자녀를 둔 한부모인 자(태아포함)'",
+      "공고문 완화 순위: 1순위 일반자격(1인 120%·2인 110%·3인 이상 100%), 2순위 1인 140%·2인 130%·3인 이상 120%, 3순위 전 가구 150% 이하"
+     ],
+     "info": [
+      "입주 전까지 본인의 주택청약종합저축 가입 증명"
+     ]
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 87,
+     "pm": 86,
+     "tr": 1,
+     "walk": 17,
+     "path": "도보 6분 → <b>M6461</b> 논현주공1단지→사당역 54분 → 도보 5분 → <b>2호선</b> 사당역→선릉역 12분 → 도보 6분"
+    }
+   }
+  },
+  {
+   "region": "incheon",
+   "source": "lh",
+   "kind": "행복주택 예비 (자격완화)",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021099&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+   "district": "남동구",
+   "station": null,
+   "postedOn": "2026-11-19",
+   "applyStart": "2026-12-01T10:00:00+09:00",
+   "applyEnd": "2026-12-03T16:00:00+09:00",
+   "applyNote": "LH청약플러스 인터넷·모바일 (현장접수는 12/1~2 고령자 등 인터넷이 어려운 분만)",
+   "announce": "서류제출대상자 12/7(월) 14:00, 예비입주자 '27.3/11(목) 14:00",
+   "reserve": true,
+   "dupRule": "1세대 1주택 신청 (공고 내 3개 단지 통틀어), 중복 신청 시 전부 무효",
+   "id": "lh-2015122300021099-3",
+   "name": "인천서창 14단지 행복주택",
+   "address": "인천광역시 남동구 운연천로 9",
+   "area": "26.8㎡ (26A)",
+   "price": "2,822만 / 월 13.2만 (대학생·소득 없는 청년), 2,988만 / 월 13.9만 (소득 있는 청년)",
+   "supply": "예비자 20명 (26A 대학생·청년)",
+   "memo": "대학생·청년 물량만 모집(대학생·청년 계층 통합 추첨). 예비입주자라 실제 입주까지 1년 이상 걸릴 수 있음",
+   "tracks": [
+    {
+     "label": "청년 (만 19~39세)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": [
+      19,
+      39
+     ],
+     "ageDate": "2026-11-19",
+     "marital": [
+      "single"
+     ],
+     "homeless": true,
+     "incomePct": 150,
+     "incomePctSingle": 150,
+     "assetMax": 251000000,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": {
+      "areas": [
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "시흥시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       }
+      ],
+      "includesJob": true,
+      "text": "인천광역시 또는 연접지역(서울·부천·시흥·김포)이 거주지나 소득근거지면 1순위, 그 밖의 경기도 2순위, 그 외 3순위"
+     },
+     "needsCheck": [],
+     "evidence": [
+      "공고문 '(청년) 19세 이상 39세 이하인 자(출생일 1986.11.20. ~ 2007.11.19.)', '혼인 중이 아닐 것'",
+      "공고문 완화 순위: 1순위 일반자격(1인 120%·2인 110%·3인 이상 100%), 2순위 1인 140%·2인 130%·3인 이상 120%, 3순위 전 가구 150% 이하",
+      "공고문 '총 자산가액 합산기준 25,100만원 이하이고 총 자산 중 자동차가액이 4,542만원 이하'"
+     ],
+     "info": [
+      "입주 전까지 주택청약종합저축 가입 증명"
+     ]
+    },
+    {
+     "label": "청년 (사회초년생)",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": [
+      "single"
+     ],
+     "homeless": true,
+     "incomePct": 150,
+     "incomePctSingle": 150,
+     "assetMax": 251000000,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": {
+      "areas": [
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "시흥시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       }
+      ],
+      "includesJob": true,
+      "text": "인천광역시 또는 연접지역(서울·부천·시흥·김포)이 거주지나 소득근거지면 1순위, 그 밖의 경기도 2순위, 그 외 3순위"
+     },
+     "needsCheck": [
+      "소득 있는 업무 종사기간 총 7년 이내 (5년 이내면 1순위 일반자격)이고 재직 중·퇴직 1년 내 구직급여 수급자격자·예술인 중 하나"
+     ],
+     "evidence": [
+      "공고문 '(사회초년생) … 소득이 있는 업무에 종사한 기간이 총 5년 이내(【완화조건】 7년 이내 (2순위·3순위))인 자'",
+      "공고문 완화 순위: 1순위 일반자격(1인 120%·2인 110%·3인 이상 100%), 2순위 1인 140%·2인 130%·3인 이상 120%, 3순위 전 가구 150% 이하"
+     ],
+     "info": [
+      "입주 전까지 주택청약종합저축 가입 증명"
+     ]
+    },
+    {
+     "label": "대학생·취업준비생",
+     "target": "youth",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": [
+      "single"
+     ],
+     "homeless": true,
+     "incomePct": 150,
+     "incomePctSingle": 150,
+     "assetMax": 108000000,
+     "carMax": 0,
+     "residence": null,
+     "priority": {
+      "areas": [
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "시흥시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       }
+      ],
+      "includesJob": false,
+      "text": "인천광역시 또는 연접지역(서울·부천·시흥·김포)이 거주지나 재학 중인 대학 소재지면 1순위, 그 밖의 경기도 2순위, 그 외 3순위"
+     },
+     "needsCheck": [
+      "대학 재학·다음 학기 입·복학 예정, 또는 대학·고등학교 졸업(중퇴) 2년 이내(2024.11.19. 이후)",
+      "소득은 본인과 부모의 월평균소득 합계 기준"
+     ],
+     "evidence": [
+      "공고문 '(대학생) 대학에 재학중이거나 다음 학기에 입학 또는 복학 예정', '(취업준비생) 졸업 또는 중퇴한 지 2년 이내'",
+      "공고문 '신청자 부모와 본인의 월평균소득 합계가 … 100퍼센트 이하 (【완화조건】 120% (2순위), 150% (3순위))'",
+      "공고문 '신청자 본인의 총 자산가액 합산기준이 10,800만원 이하이고 자동차가액 산출대상 자동차를 소유하고 있지 않을 것'"
+     ]
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 92,
+     "pm": 86,
+     "tr": 1,
+     "walk": 12,
+     "path": "도보 2분 → <b>9100</b> 꿈에그린아파트→서초역 68분 → 도보 4분 → <b>2호선</b> 서초역→선릉역 7분 → 도보 6분"
+    }
+   }
+  },
+  {
+   "id": "lh-2015122300021052",
+   "name": "인천산곡 A1블록 행복주택 (산곡솔마루)",
+   "region": "incheon",
+   "source": "lh",
+   "kind": "행복주택 예비 (신혼·한부모)",
+   "group": [
+    "public",
+    "reserve"
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021052&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+   "address": "인천광역시 부평구 산청로17번길 67",
+   "district": "부평구",
+   "station": "산곡역",
+   "postedOn": "2026-11-11",
+   "applyStart": "2026-11-23T10:00:00+09:00",
+   "applyEnd": "2026-11-25T16:00:00+09:00",
+   "applyNote": "LH청약플러스 인터넷·모바일 (현장접수는 정보취약계층, 11/20까지 전화 예약)",
+   "announce": "서류제출대상자 12/7(월) 17:00, 예비입주자 '27.4/15(목) 17:00",
+   "area": "44.75㎡ (44A)",
+   "price": "8,440만 / 월 37.3만",
+   "supply": "예비자 30명 (서류제출대상자 30명, 적격자 전원 예비자 선정)",
+   "reserve": true,
+   "dupRule": "1세대 1주택 신청, 중복 신청 시 전부 무효 ((예비)신혼부부가 각각 신청해도 부적격)",
+   "memo": "2세 미만 자녀(태아 포함) 가구에 모집호수 30% 우선배정. 2026년 8월 첫 입주 단지",
+   "tracks": [
+    {
+     "label": "신혼부부",
+     "target": "newlywed",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": [
+      "newlywed",
+      "married"
+     ],
+     "homeless": true,
+     "incomePct": 100,
+     "incomePctSingle": null,
+     "assetMax": 345000000,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": {
+      "areas": [
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "시흥시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       }
+      ],
+      "includesJob": true,
+      "text": "인천광역시 또는 연접지역(서울·부천·시흥·김포)이 거주지나 소득근거지면 1순위, 그 밖의 경기도 2순위, 그 외 3순위"
+     },
+     "needsCheck": [
+      "혼인 7년 이내(2019.11.11. 이후 혼인신고) 또는 6세 이하 자녀(2019.11.12. 이후 출생)",
+      "소득 가산: 맞벌이 120%(2인 130%), 출산자녀 1명 +10%p·2명 이상 +20%p 가산"
+     ],
+     "evidence": [
+      "공고문 '혼인기간이 7년 … 이내일 것 또는 6세 이하 자녀(태아포함)를 둔 자'",
+      "공고문 '월평균소득의 100퍼센트 이하(맞벌이 부부 120퍼센트 이하)… 2인인 경우에는 110퍼센트, 맞벌이 2인 가구의 경우 130퍼센트'",
+      "공고문 '총 자산 합산가액이 34,500만원 이하이고, 총 자산 중 자동차가액이 4,542만원 이하'"
+     ],
+     "info": [
+      "입주 전까지 본인 또는 배우자의 주택청약종합저축 가입 증명"
+     ],
+     "incomePctByHh": {
+      "2": 110
+     }
+    },
+    {
+     "label": "예비신혼부부",
+     "target": "newlywed",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": [
+      "engaged"
+     ],
+     "homeless": true,
+     "incomePct": 100,
+     "incomePctSingle": null,
+     "assetMax": 345000000,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": {
+      "areas": [
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "시흥시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       }
+      ],
+      "includesJob": true,
+      "text": "인천광역시 또는 연접지역(서울·부천·시흥·김포)이 거주지나 소득근거지면 1순위, 그 밖의 경기도 2순위, 그 외 3순위"
+     },
+     "needsCheck": [
+      "혼인으로 구성될 세대 전원 무주택",
+      "소득 가산: 맞벌이 120%(2인 130%), 출산자녀 1명 +10%p·2명 이상 +20%p 가산"
+     ],
+     "evidence": [
+      "공고문 '(예비신혼부부) 혼인을 계획 중이며 입주 전까지 혼인사실을 증명할 수 있을 것'",
+      "공고문 소득·자산은 혼인으로 구성될 세대 기준 (100%, 2인 110%, 자산 34,500만원·자동차 4,542만원)"
+     ],
+     "incomePctByHh": {
+      "2": 110
+     },
+     "info": [
+      "입주 전까지 혼인사실 증명"
+     ]
+    },
+    {
+     "label": "한부모가족",
+     "target": "special_class",
+     "restrictedTo": null,
+     "age": null,
+     "ageDate": null,
+     "marital": null,
+     "homeless": true,
+     "incomePct": 100,
+     "incomePctSingle": null,
+     "assetMax": 345000000,
+     "carMax": 45420000,
+     "residence": null,
+     "priority": {
+      "areas": [
+       {
+        "sido": "incheon"
+       },
+       {
+        "sido": "seoul"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "부천시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "시흥시"
+       },
+       {
+        "sido": "gyeonggi",
+        "sigungu": "김포시"
+       }
+      ],
+      "includesJob": true,
+      "text": "인천광역시 또는 연접지역(서울·부천·시흥·김포)이 거주지나 소득근거지면 1순위, 그 밖의 경기도 2순위, 그 외 3순위"
+     },
+     "needsCheck": [
+      "6세 이하 자녀(2019.11.12. 이후 출생, 태아 포함)를 둔 한부모",
+      "소득 가산: 맞벌이 120%(2인 130%), 출산자녀 1명 +10%p·2명 이상 +20%p 가산"
+     ],
+     "evidence": [
+      "공고문 '(한부모가족) 6세이하 자녀를 둔 한부모인 자(태아포함)'",
+      "공고문 1순위 '인천광역시 또는 연접지역(서울특별시, 경기도 부천시, 시흥시, 김포시)을 거주지나 소득 근거지로 하는 자'"
+     ],
+     "incomePctByHh": {
+      "2": 110
+     }
+    }
+   ],
+   "commute": {
+    "seolleung": {
+     "am": 94,
+     "pm": 97,
+     "tr": 1,
+     "walk": 30,
+     "path": "도보 19분 → <b>7호선</b> 산곡역→대림역 33분 → 도보 5분 → <b>2호선</b> 대림역→선릉역 28분 → 도보 6분"
+    }
+   }
+  }
+ ]
+}
